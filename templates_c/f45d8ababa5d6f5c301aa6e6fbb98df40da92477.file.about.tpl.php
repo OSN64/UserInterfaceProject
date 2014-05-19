@@ -1,10 +1,39 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 12:34:12
+         compiled from "./templates/about.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1229987753796cd2cd7d69-80936373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
+    array (
+      0 => './templates/about.tpl',
+      1 => 1400466557,
+      2 => 'file',
+    ),
+    '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
+    array (
+      0 => './templates/layout.tpl',
+      1 => 1400466849,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1229987753796cd2cd7d69-80936373',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53796cd2d9baf5_73514554',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_53796cd2d9baf5_73514554')) {function content_53796cd2d9baf5_73514554($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{block "title"}{/block}</title>
+    <title>
+  About
+</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -37,9 +66,20 @@
       </div>
     </div>
     
-    {block "content"}{/block}
+    
+  <div class="jumbotron col-md-offset-3 col-md-6">
+    <h1>Antonio's Pasta</h1>
+    <p>Authentic Italian style pasta.</p>
+    <p>
+      <a class="btn btn-lg btn-default" href="#" role="button">About us</a>
+      <a class="btn btn-lg btn-default" href="#" role="button">View recipes</a>
+      <a class="btn btn-lg btn-default" href="#" role="button">View gallery</a>
+      <a class="btn btn-lg btn-default" href="#" role="button">Contact us</a>
+    </p>
+  </div>
+
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   </body>
-</html>
+</html><?php }} ?>
