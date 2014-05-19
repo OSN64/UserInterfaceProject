@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 18:50:39
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 00:02:05
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:149929334153784f081e4116-30806122%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400489418,
+      1 => 1400508122,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400489418,
+      1 => 1400499141,
       2 => 'file',
     ),
   ),
@@ -32,7 +32,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-  Recipes
+  Antonio's Pasta | Recipes
 </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -70,16 +70,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     
   <div id="navbar-container" class="col-md-4">
-    <div class="btn-group-vertical col-md-offset-4 col-md-8">
-      <p class="panel">Navigation</p>
-      <a class="btn btn-default" href="#type1">Type 1</a>
-      <a class="btn btn-default" href="#type2">Type 2</a>
-      <a class="btn btn-default" href="#type3">Type 3</a>
+    <div class="list-group col-md-offset-4 col-md-8">
+      <p class="list-group-item">Dish Types</p>
+      <a class="list-group-item" href="#type1">Main Course</a>
+      <a class="list-group-item" href="#type2">Quick & Easy</a>
+      <a class="list-group-item" href="#type3">Vegetarian</a>
     </div>
   </div>
   
   <div class="panel-group col-md-6" id="recipe-list">
-    <h3 id="type1">Type 1 Recipes</h3>
+    <h3 id="type1">Main Course Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -139,7 +139,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <br><br>
     
-    <h3>Type 2 Recipes</h3>
+    <h3 id="type2">Quick & Easy Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -171,7 +171,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <br><br>
     
-    <h3>Type 3 Recipes</h3>
+    <h3 id="type3">Vegetarian Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -247,5 +247,40 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="./fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!-- Add fancyBox -->
+    <!-- <script type="text/javascript" src="./fancybox/source/jquery.fancybox.js?v=2.1.5"></script> -->
+    <link rel="stylesheet" href="./fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
+    <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          // $(".fancybox").fancybox();
+
+          $('.fancybox-thumbs').fancybox({
+            prevEffect : 'none',
+            nextEffect : 'none',
+
+            closeBtn  : true,
+            arrows    : true,
+            nextClick : true,
+            autoSize  : true,
+
+            helpers : {
+              thumbs : {
+                width  : 50,
+                height : 50
+              }
+            }
+          });
+      });
+    </script>
   </body>
 </html><?php }} ?>

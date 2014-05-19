@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 21:14:44
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 23:13:41
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:117126596853796cd557b8d6-74300277%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400498082,
+      1 => 1400505182,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400497904,
+      1 => 1400499141,
       2 => 'file',
     ),
   ),
@@ -32,7 +32,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-  Gallery
+  Antonio's Pasta | Gallery
 </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">

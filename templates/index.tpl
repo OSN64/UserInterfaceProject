@@ -1,7 +1,7 @@
 {extends "layout.tpl"}
 
 {block "title"}
-  Index
+  Antonio's Pasta | Home
 {/block}
 
 {block "nav-links"}

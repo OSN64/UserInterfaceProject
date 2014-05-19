@@ -1,7 +1,7 @@
 {extends "layout.tpl"}
 
 {block "title"}
-  Gallery
+  Antonio's Pasta | Gallery
 {/block}
 
 {block "nav-links"}

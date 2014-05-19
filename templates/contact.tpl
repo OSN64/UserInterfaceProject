@@ -1,7 +1,7 @@
 {extends "layout.tpl"}
 
 {block "title"}
-  Order
+  Antonio's Pasta | Contact Us
 {/block}
 
 {block "nav-links"}

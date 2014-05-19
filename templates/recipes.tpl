@@ -1,7 +1,7 @@
 {extends "layout.tpl"}
 
 {block "title"}
-  Recipes
+  Antonio's Pasta | Recipes
 {/block}
 
 {block "nav-links"}
@@ -14,16 +14,16 @@
 
 {block "content"}
   <div id="navbar-container" class="col-md-4">
-    <div class="btn-group-vertical col-md-offset-4 col-md-8">
-      <p class="panel">Navigation</p>
-      <a class="btn btn-default" href="#type1">Type 1</a>
-      <a class="btn btn-default" href="#type2">Type 2</a>
-      <a class="btn btn-default" href="#type3">Type 3</a>
+    <div class="list-group col-md-offset-4 col-md-8">
+      <p class="list-group-item">Dish Types</p>
+      <a class="list-group-item" href="#type1">Main Course</a>
+      <a class="list-group-item" href="#type2">Quick & Easy</a>
+      <a class="list-group-item" href="#type3">Vegetarian</a>
     </div>
   </div>
   
   <div class="panel-group col-md-6" id="recipe-list">
-    <h3 id="type1">Type 1 Recipes</h3>
+    <h3 id="type1">Main Course Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -83,7 +83,7 @@
     
     <br><br>
     
-    <h3>Type 2 Recipes</h3>
+    <h3 id="type2">Quick & Easy Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -115,7 +115,7 @@
     
     <br><br>
     
-    <h3>Type 3 Recipes</h3>
+    <h3 id="type3">Vegetarian Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">

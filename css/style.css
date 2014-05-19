@@ -48,9 +48,22 @@ body {
 }
 
 #navbar-container {
-  
+  margin-top: 2em;
+  text-align: center;
 }
 
-.featurette-divider {
-  
+#navbar-container .list-group-item {
+  padding: 0.5em;
+  border-color: #222222;
+}
+
+#navbar-container p {
+  background-color: #222222;
+  color: white;
+  font-weight: bold;
+}
+
+.featurette {
+  margin-top: 4em;
+  margin-bottom: 4em;
 }

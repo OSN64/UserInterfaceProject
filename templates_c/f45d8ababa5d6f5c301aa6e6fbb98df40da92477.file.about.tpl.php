@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 18:50:38
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 00:23:57
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1229987753796cd2cd7d69-80936373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
     array (
       0 => './templates/about.tpl',
-      1 => 1400489418,
+      1 => 1400509411,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400489418,
+      1 => 1400499141,
       2 => 'file',
     ),
   ),
@@ -32,7 +32,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-  About
+  Antonio's Pasta | About
 </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -76,11 +76,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div class="col-md-7">
       <h2 class="featurette-heading">Mission Statement</h2>
       <p class="lead">
-        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+        Antonio's Pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
       </p>
     </div>
     <div class="col-md-5">
-      <img src="" alt="picture">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
+      </a>
     </div>
   </div>
   
@@ -88,12 +90,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   
   <div class="row featurette">
     <div class="col-md-5">
-      <img src="" alt="picture">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
     </div>
     <div class="col-md-7">
       <h2 class="featurette-heading">History</h2>
       <p class="lead">
-        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+        Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality ever since its origin as a family run         business.
       </p>
     </div>
   </div>
@@ -102,13 +106,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   
   <div class="row featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Product Sources</h2>
+      <h2 class="featurette-heading">Creation Process</h2>
       <p class="lead">
-        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+        Our products are made at one of our manufacturing facilities nation wide. Great care has been taken to ensure that the ingredients we use are           at our standard of quality and reflects the character of our products.
       </p>
     </div>
     <div class="col-md-5">
-      <img src="" alt="picture">
+      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_pasta_salad.jpg" alt="...">
+      </a>
     </div>
   </div>
   
@@ -118,5 +124,40 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="./fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!-- Add fancyBox -->
+    <!-- <script type="text/javascript" src="./fancybox/source/jquery.fancybox.js?v=2.1.5"></script> -->
+    <link rel="stylesheet" href="./fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
+    <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          // $(".fancybox").fancybox();
+
+          $('.fancybox-thumbs').fancybox({
+            prevEffect : 'none',
+            nextEffect : 'none',
+
+            closeBtn  : true,
+            arrows    : true,
+            nextClick : true,
+            autoSize  : true,
+
+            helpers : {
+              thumbs : {
+                width  : 50,
+                height : 50
+              }
+            }
+          });
+      });
+    </script>
   </body>
 </html><?php }} ?>
