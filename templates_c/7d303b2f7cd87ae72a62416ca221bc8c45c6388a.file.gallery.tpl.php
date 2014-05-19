@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 12:34:14
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 17:54:47
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:117126596853796cd557b8d6-74300277%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400466666,
+      1 => 1400486064,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400466849,
+      1 => 1400485912,
       2 => 'file',
     ),
   ),
@@ -54,11 +54,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="recipes.php">Recipes</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="order.php">Order</a></li>
+                
+  <li><a href="index.php">Home</a></li>
+  <li><a href="about.php">About</a></li>
+  <li><a href="recipes.php">Recipes</a></li>
+  <li class="active"><a href="gallery.php">Gallery</a></li>
+  <li><a href="contact.php">Contact</a></li>
+
               </ul>
             </div>
           </div>
@@ -68,7 +70,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     
   <div class="jumbotron col-md-offset-3 col-md-6">
-    <h1>Antonio's Pasta</h1>
+    <h1>Gallery Page Placeholder</h1>
     <p>Authentic Italian style pasta.</p>
     <p>
       <a class="btn btn-lg btn-default" href="#" role="button">About us</a>

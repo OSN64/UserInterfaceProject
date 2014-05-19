@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 17:53:51
-         compiled from "./templates/about.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1229987753796cd2cd7d69-80936373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 17:53:43
+         compiled from "./templates/contact.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:14200231715379b6fb652b01-44679734%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
+    'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
-      0 => './templates/about.tpl',
-      1 => 1400485982,
+      0 => './templates/contact.tpl',
+      1 => 1400486017,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -17,22 +17,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1229987753796cd2cd7d69-80936373',
+  'nocache_hash' => '14200231715379b6fb652b01-44679734',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53796cd2d9baf5_73514554',
+  'unifunc' => 'content_5379b6fb7a8ae3_49179254',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53796cd2d9baf5_73514554')) {function content_53796cd2d9baf5_73514554($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5379b6fb7a8ae3_49179254')) {function content_5379b6fb7a8ae3_49179254($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-  About
+  Order
 </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -56,10 +56,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <ul class="nav navbar-nav">
                 
   <li><a href="index.php">Home</a></li>
-  <li class="active"><a href="about.php">About</a></li>
+  <li><a href="about.php">About</a></li>
   <li><a href="recipes.php">Recipes</a></li>
   <li><a href="gallery.php">Gallery</a></li>
-  <li><a href="contact.php">Contact</a></li>
+  <li class="active"><a href="contact.php">Contact</a></li>
 
               </ul>
             </div>
@@ -69,51 +69,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
     
     
-<div class="col-md-offset-2 col-md-8">
-  <hr class="featurette-divider">
-  
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">Mission Statement</h2>
-      <p class="lead">
-        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
-      </p>
-    </div>
-    <div class="col-md-5">
-      <img src="" alt="picture">
-    </div>
+  <div class="jumbotron col-md-offset-3 col-md-6">
+    <h1>Contact Page Placeholder</h1>
+    <p>Authentic Italian style pasta.</p>
+    <p>
+      <a class="btn btn-lg btn-default" href="#" role="button">About us</a>
+      <a class="btn btn-lg btn-default" href="#" role="button">View recipes</a>
+      <a class="btn btn-lg btn-default" href="#" role="button">View gallery</a>
+      <a class="btn btn-lg btn-default" href="#" role="button">Contact us</a>
+    </p>
   </div>
-  
-  <hr class="featurette-divider">
-  
-  <div class="row featurette">
-    <div class="col-md-5">
-      <img src="" alt="picture">
-    </div>
-    <div class="col-md-7">
-      <h2 class="featurette-heading">History</h2>
-      <p class="lead">
-        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
-      </p>
-    </div>
-  </div>
-  
-  <hr class="featurette-divider">
-  
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">Product Sources</h2>
-      <p class="lead">
-        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
-      </p>
-    </div>
-    <div class="col-md-5">
-      <img src="" alt="picture">
-    </div>
-  </div>
-  
-  <hr class="featurette-divider">
-</div>
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

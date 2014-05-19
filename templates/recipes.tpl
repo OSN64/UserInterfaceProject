@@ -4,6 +4,14 @@
   Recipes
 {/block}
 
+{block "nav-links"}
+  <li><a href="index.php">Home</a></li>
+  <li><a href="about.php">About</a></li>
+  <li class="active"><a href="recipes.php">Recipes</a></li>
+  <li><a href="gallery.php">Gallery</a></li>
+  <li><a href="contact.php">Contact</a></li>
+{/block}
+
 {block "content"}
   <div id="navbar-container" class="col-md-4">
     <div class="btn-group-vertical col-md-offset-4 col-md-8">

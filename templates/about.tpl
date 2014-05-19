@@ -4,15 +4,58 @@
   About
 {/block}
 
+{block "nav-links"}
+  <li><a href="index.php">Home</a></li>
+  <li class="active"><a href="about.php">About</a></li>
+  <li><a href="recipes.php">Recipes</a></li>
+  <li><a href="gallery.php">Gallery</a></li>
+  <li><a href="contact.php">Contact</a></li>
+{/block}
+
 {block "content"}
-  <div class="jumbotron col-md-offset-3 col-md-6">
-    <h1>Antonio's Pasta</h1>
-    <p>Authentic Italian style pasta.</p>
-    <p>
-      <a class="btn btn-lg btn-default" href="#" role="button">About us</a>
-      <a class="btn btn-lg btn-default" href="#" role="button">View recipes</a>
-      <a class="btn btn-lg btn-default" href="#" role="button">View gallery</a>
-      <a class="btn btn-lg btn-default" href="#" role="button">Contact us</a>
-    </p>
+<div class="col-md-offset-2 col-md-8">
+  <hr class="featurette-divider">
+  
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Mission Statement</h2>
+      <p class="lead">
+        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+      </p>
+    </div>
+    <div class="col-md-5">
+      <img src="" alt="picture">
+    </div>
   </div>
+  
+  <hr class="featurette-divider">
+  
+  <div class="row featurette">
+    <div class="col-md-5">
+      <img src="" alt="picture">
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading">History</h2>
+      <p class="lead">
+        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+      </p>
+    </div>
+  </div>
+  
+  <hr class="featurette-divider">
+  
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Product Sources</h2>
+      <p class="lead">
+        Antonio's pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+      </p>
+    </div>
+    <div class="col-md-5">
+      <img src="" alt="picture">
+    </div>
+  </div>
+  
+  <hr class="featurette-divider">
+</div>
 {/block}

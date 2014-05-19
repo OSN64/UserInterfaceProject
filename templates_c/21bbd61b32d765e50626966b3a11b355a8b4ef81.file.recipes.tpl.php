@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 12:34:13
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 17:54:46
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:149929334153784f081e4116-30806122%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400464241,
+      1 => 1400486077,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400466849,
+      1 => 1400485912,
       2 => 'file',
     ),
   ),
@@ -54,11 +54,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="recipes.php">Recipes</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="order.php">Order</a></li>
+                
+  <li><a href="index.php">Home</a></li>
+  <li><a href="about.php">About</a></li>
+  <li class="active"><a href="recipes.php">Recipes</a></li>
+  <li><a href="gallery.php">Gallery</a></li>
+  <li><a href="contact.php">Contact</a></li>
+
               </ul>
             </div>
           </div>

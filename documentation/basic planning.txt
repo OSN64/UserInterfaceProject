@@ -1,0 +1,38 @@
+Business – Antonio’s Pasta (can change the name)
+  •	Pasta manufacturer (like San Remo)
+  •	Sells pasta products to the general public as well as to companies (i.e. restaurants)
+
+Pages
+  •	Home
+  •	About
+  •	Recipes
+  •	Gallery
+  •	At least one more of the following:
+    o	Order (if enough time)
+    o	Catalogue
+    o	Feedback (easiest to do)
+  •	Any substitutes you guys want
+
+Home
+  •	Image carousel
+  •	Brief description
+  •	Buttons leading to other pages with icons and/or brief description
+
+About Page
+  •	Paragraph blocks with pictures
+  •	Company info, contact and address info, history
+
+Recipes Page
+  •	Accordion style (clicking on a recipe title expands its recipe and collapses currently open recipe, if any)
+  •	Recipes are grouped according to type (hot, cold, vegetarian? Not exactly sure)
+  •	Sidebar to navigate to each type
+  •	Option to view recipe in its own page? Maybe a button position to the very right of the panel heading containing the dish title. Include breadcrumbs on opened       page.
+
+Gallery Page
+  •	Separated into sections(products, dishes)  with thumbnail previews
+  •	Sidebar navigation for each type
+  •	Click on thumbnail to expand it within the same page as a popup (tint background page)
+  •	Title/caption and hover text
+  •	Previous and next buttons
+  •	Navigate to recipe from picture
+  •	Method of closing picture: close button, click on centre of picture (might not be ideal) or click outside picture
