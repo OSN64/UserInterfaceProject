@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 17:54:47
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 19:33:18
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:117126596853796cd557b8d6-74300277%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400486064,
+      1 => 1400491995,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400485912,
+      1 => 1400489418,
       2 => 'file',
     ),
   ),
@@ -69,16 +69,55 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
     
     
-  <div class="jumbotron col-md-offset-3 col-md-6">
-    <h1>Gallery Page Placeholder</h1>
-    <p>Authentic Italian style pasta.</p>
-    <p>
-      <a class="btn btn-lg btn-default" href="#" role="button">About us</a>
-      <a class="btn btn-lg btn-default" href="#" role="button">View recipes</a>
-      <a class="btn btn-lg btn-default" href="#" role="button">View gallery</a>
-      <a class="btn btn-lg btn-default" href="#" role="button">Contact us</a>
-    </p>
+<div class="col-md-offset-2 col-md-8">
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="images/carousel_bucatini.jpg" alt="...">
+      </a>
+    </div>
   </div>
+</div>
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
