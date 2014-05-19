@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 19:33:18
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-19 21:14:44
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:117126596853796cd557b8d6-74300277%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400491995,
+      1 => 1400498082,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400489418,
+      1 => 1400497904,
       2 => 'file',
     ),
   ),
@@ -72,48 +72,48 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="col-md-offset-2 col-md-8">
   <div class="row">
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_pasta_salad.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_pasta_salad.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
       </a>
     </div>
   </div>
@@ -122,5 +122,40 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="./fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!-- Add fancyBox -->
+    <!-- <script type="text/javascript" src="./fancybox/source/jquery.fancybox.js?v=2.1.5"></script> -->
+    <link rel="stylesheet" href="./fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
+    <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          // $(".fancybox").fancybox();
+
+          $('.fancybox-thumbs').fancybox({
+            prevEffect : 'none',
+            nextEffect : 'none',
+
+            closeBtn  : true,
+            arrows    : true,
+            nextClick : true,
+            autoSize  : true,
+
+            helpers : {
+              thumbs : {
+                width  : 50,
+                height : 50
+              }
+            }
+          });
+      });
+    </script>
   </body>
 </html><?php }} ?>

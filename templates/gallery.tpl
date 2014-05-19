@@ -16,48 +16,48 @@
 <div class="col-md-offset-2 col-md-8">
   <div class="row">
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_pasta_salad.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_pasta_salad.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
       </a>
     </div>
     <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="images/carousel_bucatini.jpg" alt="...">
+      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
       </a>
     </div>
   </div>
