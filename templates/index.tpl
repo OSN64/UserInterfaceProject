@@ -53,32 +53,32 @@
   
   <div id="page-descriptions" class="row col-md-offset-1 col-md-10">
     <div class="col-md-3">
-      <h2>About Our Company</h2>
+      <h2>About Us</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        Learn about our mission statement, company history and manufacturing process.
       </p>
       <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
     </div>
     <div class="col-md-3">
-      <h2>About Our Company</h2>
+      <h2>Our Recipes</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        Be inspired by delicious recipes that are absolutely perfect for our range of pasta.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-default" href="about.php" role="button">Recipes &raquo;</a>
     </div>
     <div class="col-md-3">
-      <h2>View Food Gallery</h2>
+      <h2>Food Gallery</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        View photos of our pasta products and dishes which can be created with them.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-default" href="about.php" role="button">Gallery &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Contact Us</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        Want to send us feedback or ask a question? Contact us directly via a message.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-default" href="about.php" role="button">Contact &raquo;</a>
     </div>
   </div>
   

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 17:44:36
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 20:58:13
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1229987753796cd2cd7d69-80936373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400571725,
+      1 => 1400583474,
       2 => 'file',
     ),
   ),
@@ -121,6 +121,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <hr class="featurette-divider">
 </div>
 
+    
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">&copy; 2014 Whatever</p>
+      </div>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>

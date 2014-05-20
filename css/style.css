@@ -1,13 +1,32 @@
 body {
   margin: 0;
-  padding: 0;
-  padding-top: 50px;
+  padding: 50px 0 800px 0;
   background: #F0F0F0;
   background: white;
 }
 
 .navbar-inverse .navbar-brand {
   color: white;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #222222;
+  border-top: 1px solid #080808;
+  text-align: center;
+}
+
+#footer p {
+  margin: 0;
+  line-height: 40px;
 }
 
 #home-carousel {
@@ -39,6 +58,7 @@ body {
 
 #page-descriptions {
   margin-bottom: 2em;
+  text-align: center;
 }
 
 #navbar-container {
@@ -48,7 +68,7 @@ body {
 
 #navbar-container .list-group-item {
   padding: 0.5em;
-  border-color: #222222;
+  border-color: #080808;
 }
 
 #navbar-container p {

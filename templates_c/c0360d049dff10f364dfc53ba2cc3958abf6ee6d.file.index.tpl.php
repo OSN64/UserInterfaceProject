@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 19:51:04
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 21:46:53
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:85761021653734ef00a58e4-75316201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400579461,
+      1 => 1400586411,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400571725,
+      1 => 1400585097,
       2 => 'file',
     ),
   ),
@@ -109,32 +109,32 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   
   <div id="page-descriptions" class="row col-md-offset-1 col-md-10">
     <div class="col-md-3">
-      <h2>About Our Company</h2>
+      <h2>About Us</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        Learn about our mission statement, company history and manufacturing process.
       </p>
       <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
     </div>
     <div class="col-md-3">
-      <h2>About Our Company</h2>
+      <h2>Our Recipes</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        Be inspired by delicious recipes that are absolutely perfect for our range of pasta.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-default" href="about.php" role="button">Recipes &raquo;</a>
     </div>
     <div class="col-md-3">
-      <h2>View Food Gallery</h2>
+      <h2>Food Gallery</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        View photos of our pasta products and dishes which can be created with them.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-default" href="about.php" role="button">Gallery &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Contact Us</h2>
       <p>
-        Learn about our mission statement, history and manufacturing process.
+        Want to send us feedback or ask a question? Contact us directly via a message.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-default" href="about.php" role="button">Contact &raquo;</a>
     </div>
   </div>
   
@@ -176,6 +176,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </section>
     -->
 
+    
+    <div id="footer">
+      <p class="text-muted">&copy; 2014 Antonio's Pasta</p>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>

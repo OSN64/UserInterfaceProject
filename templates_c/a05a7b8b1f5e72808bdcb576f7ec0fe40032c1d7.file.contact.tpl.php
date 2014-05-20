@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 17:44:48
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 21:29:12
          compiled from "./templates/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:14200231715379b6fb652b01-44679734%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400571725,
+      1 => 1400585097,
       2 => 'file',
     ),
   ),
@@ -138,6 +138,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     </div>
 
+    
+    <div id="footer">
+      <p class="text-muted">&copy; 2014 Antonio's Pasta</p>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
