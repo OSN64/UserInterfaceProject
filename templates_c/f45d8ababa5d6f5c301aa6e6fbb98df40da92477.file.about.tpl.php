@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 21:57:07
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 23:04:43
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1229987753796cd2cd7d69-80936373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400586769,
+      1 => 1400591030,
       2 => 'file',
     ),
   ),
@@ -35,7 +35,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   Antonio's Pasta | About
 </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="css/carousel.css"> -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   
@@ -138,6 +137,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
     <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
     <script type="text/javascript">
       $(document).ready(function() {
           // $(".fancybox").fancybox();
@@ -160,5 +160,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           });
       });
     </script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html><?php }} ?>
