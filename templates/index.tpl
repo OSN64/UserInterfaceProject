@@ -22,18 +22,62 @@
     <div class="carousel-inner">
       <div class="item active">
         <img src="images/carousel_pasta_salad.jpg" alt="pasta salad">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="jumbotron">
+              <div class="stars">
+                <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+              </div>
+              
+              <h1>Antonio's Pasta</h1>
+              <p>Authenticly Italian pasta products.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="item">
         <img src="images/carousel_bucatini.jpg" alt="bucatini">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="jumbotron">
+              <div class="stars">
+                <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+              </div>
+              
+              <h1>Antonio's Pasta</h1>
+              <p>Authenticly Italian pasta products.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="item">
         <img src="images/carousel_smoked_salmon_penne.jpg" alt="pasta salad">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="jumbotron">
+              <div class="stars">
+                <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+              </div>
+              
+              <h1>Antonio's Pasta</h1>
+              <p>Authenticly Italian pasta products.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <a class="left carousel-control" href="#home-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#home-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div>
   
+  
+  <!--
   <div class="jumbotron col-md-offset-3 col-md-6">
     <div class="stars">
       <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
@@ -50,6 +94,8 @@
       <a class="btn btn-lg btn-default" href="contact.php" role="button">Contact us</a>
     </p>
   </div>
+  -->
+  
   
   <div id="page-descriptions" class="row col-md-offset-1 col-md-10">
     <div class="col-md-3">
@@ -57,28 +103,28 @@
       <p>
         Learn about our mission statement, company history and manufacturing process.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">About &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Our Recipes</h2>
       <p>
         Be inspired by delicious recipes that are absolutely perfect for our range of pasta.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">Recipes &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">Recipes &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Food Gallery</h2>
       <p>
         View photos of our pasta products and dishes which can be created with them.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">Gallery &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">Gallery &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Contact Us</h2>
       <p>
         Want to send us feedback or ask a question? Contact us directly via a message.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">Contact &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">Contact &raquo;</a>
     </div>
   </div>
   

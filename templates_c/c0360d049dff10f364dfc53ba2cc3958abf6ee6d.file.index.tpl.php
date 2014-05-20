@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 21:46:53
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 23:38:05
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:85761021653734ef00a58e4-75316201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400586411,
+      1 => 1400593083,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400585097,
+      1 => 1400590460,
       2 => 'file',
     ),
   ),
@@ -68,7 +68,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       </div>
     </div>
     
-    
+    <div id="content" class="container">
+      
   <div id="home-carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
@@ -78,18 +79,62 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div class="carousel-inner">
       <div class="item active">
         <img src="images/carousel_pasta_salad.jpg" alt="pasta salad">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="jumbotron">
+              <div class="stars">
+                <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+              </div>
+              
+              <h1>Antonio's Pasta</h1>
+              <p>Authenticly Italian pasta products.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="item">
         <img src="images/carousel_bucatini.jpg" alt="bucatini">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="jumbotron">
+              <div class="stars">
+                <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+              </div>
+              
+              <h1>Antonio's Pasta</h1>
+              <p>Authenticly Italian pasta products.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="item">
         <img src="images/carousel_smoked_salmon_penne.jpg" alt="pasta salad">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="jumbotron">
+              <div class="stars">
+                <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+                <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
+              </div>
+              
+              <h1>Antonio's Pasta</h1>
+              <p>Authenticly Italian pasta products.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <a class="left carousel-control" href="#home-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#home-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div>
   
+  
+  <!--
   <div class="jumbotron col-md-offset-3 col-md-6">
     <div class="stars">
       <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
@@ -106,6 +151,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <a class="btn btn-lg btn-default" href="contact.php" role="button">Contact us</a>
     </p>
   </div>
+  -->
+  
   
   <div id="page-descriptions" class="row col-md-offset-1 col-md-10">
     <div class="col-md-3">
@@ -113,28 +160,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <p>
         Learn about our mission statement, company history and manufacturing process.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">About &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Our Recipes</h2>
       <p>
         Be inspired by delicious recipes that are absolutely perfect for our range of pasta.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">Recipes &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">Recipes &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Food Gallery</h2>
       <p>
         View photos of our pasta products and dishes which can be created with them.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">Gallery &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">Gallery &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Contact Us</h2>
       <p>
         Want to send us feedback or ask a question? Contact us directly via a message.
       </p>
-      <a class="btn btn-default" href="about.php" role="button">Contact &raquo;</a>
+      <a class="btn btn-danger" href="about.php" role="button">Contact &raquo;</a>
     </div>
   </div>
   
@@ -176,6 +223,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </section>
     -->
 
+    </div>
     
     <div id="footer">
       <p class="text-muted">&copy; 2014 Antonio's Pasta</p>

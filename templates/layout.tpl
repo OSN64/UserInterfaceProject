@@ -33,7 +33,9 @@
       </div>
     </div>
     
-    {block "content"}{/block}
+    <div id="content" class="container">
+      {block "content"}{/block}
+    </div>
     
     <div id="footer">
       <p class="text-muted">&copy; 2014 Antonio's Pasta</p>

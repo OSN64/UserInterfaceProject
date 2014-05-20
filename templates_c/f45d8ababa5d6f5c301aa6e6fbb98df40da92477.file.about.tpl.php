@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 20:58:13
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 22:54:36
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1229987753796cd2cd7d69-80936373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400583474,
+      1 => 1400590460,
       2 => 'file',
     ),
   ),
@@ -68,7 +68,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       </div>
     </div>
     
-    
+    <div id="content" class="container">
+      
 <div class="col-md-offset-2 col-md-8">
   <hr class="featurette-divider">
   
@@ -121,11 +122,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <hr class="featurette-divider">
 </div>
 
+    </div>
     
     <div id="footer">
-      <div class="container">
-        <p class="text-muted">&copy; 2014 Whatever</p>
-      </div>
+      <p class="text-muted">&copy; 2014 Antonio's Pasta</p>
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
