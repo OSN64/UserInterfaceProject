@@ -56,6 +56,7 @@
     <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
     <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
     <script type="text/javascript">
       $(document).ready(function() {
           // $(".fancybox").fancybox();
@@ -78,5 +79,7 @@
           });
       });
     </script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

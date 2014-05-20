@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 22:54:49
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:21:12
          compiled from "./templates/contact.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14200231715379b6fb652b01-44679734%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:76886685537b64d81e6110-78782473%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
       0 => './templates/contact.tpl',
-      1 => 1400567879,
+      1 => 1400594846,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400590460,
+      1 => 1400594846,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14200231715379b6fb652b01-44679734',
+  'nocache_hash' => '76886685537b64d81e6110-78782473',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5379b6fb7a8ae3_49179254',
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_537b64d826c502_36802414',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5379b6fb7a8ae3_49179254')) {function content_5379b6fb7a8ae3_49179254($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537b64d826c502_36802414')) {function content_537b64d826c502_36802414($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -90,24 +90,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="col-sm-8">
           <h3>Let's Get In Touch!</h3>
           <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                  <form role="form" method="POST" action="contact-form-submission.php">
+            <form  id="contactus" role="form" method="POST" action="">
               <div class="row">
                 <div class="form-group col-lg-4">
                   <label for="input1">Name</label>
-                  <input type="text" name="contact_name" class="form-control" id="input1">
+                  <input type="text" name="name" class="form-control" id="input1" placeholder="eg: Dave Goldstene" required >
                 </div>
                 <div class="form-group col-lg-4">
                   <label for="input2">Email Address</label>
-                  <input type="email" name="contact_email" class="form-control" id="input2">
+                  <input type="email" name="email" class="form-control" id="input2" placeholder="eg: Dave@techthrones.com" required >
                 </div>
                 <div class="form-group col-lg-4">
                   <label for="input3">Phone Number</label>
-                  <input type="phone" name="contact_phone" class="form-control" id="input3">
+                  <input type="number" name="number" class="form-control" id="input3" placeholder="eg: 2323243" required >
                 </div>
                 <div class="clearfix"></div>
                 <div class="form-group col-lg-12">
                   <label for="input4">Message</label>
-                  <textarea name="contact_message" class="form-control" rows="6" id="input4"></textarea>
+                  <textarea name="message" class="form-control" rows="6" id="input4" placeholder="Tell us what you want" required ></textarea>
                 </div>
                 <div class="form-group col-lg-12">
                   <input type="hidden" name="save" value="contact">
@@ -139,6 +139,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     </div>
 
+    
+
     </div>
     
     <div id="footer">
@@ -160,6 +162,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
     <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
     <script type="text/javascript">
       $(document).ready(function() {
           // $(".fancybox").fancybox();
@@ -182,5 +185,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           });
       });
     </script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html><?php }} ?>

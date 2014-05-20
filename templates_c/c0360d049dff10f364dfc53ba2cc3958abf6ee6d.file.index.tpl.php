@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 23:38:05
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:21:14
          compiled from "./templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:85761021653734ef00a58e4-75316201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1585899371537b64da37ba42-33824551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400593083,
+      1 => 1400593563,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400590460,
+      1 => 1400594846,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '85761021653734ef00a58e4-75316201',
+  'nocache_hash' => '1585899371537b64da37ba42-33824551',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53734ef0156f09_36048729',
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_537b64da46cb56_35123539',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53734ef0156f09_36048729')) {function content_53734ef0156f09_36048729($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537b64da46cb56_35123539')) {function content_537b64da46cb56_35123539($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -244,6 +244,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
     <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
     <script type="text/javascript">
       $(document).ready(function() {
           // $(".fancybox").fancybox();
@@ -266,5 +267,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           });
       });
     </script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html><?php }} ?>
