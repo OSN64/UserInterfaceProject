@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 14:35:37
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 19:51:04
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:85761021653734ef00a58e4-75316201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400560517,
+      1 => 1400579461,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400497904,
+      1 => 1400571725,
       2 => 'file',
     ),
   ),
@@ -41,7 +41,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <body>
     <div class="navbar-wrapper">
       <div class="container col-md-offset-1 col-md-10">
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,27 +69,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
     
     
-  <div id="home-carousel-container" class="col-md-12">
-    <div id="home-carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#home-carousel" data-slide-to="1"></li>
-        <li data-target="#home-carousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="images/carousel_pasta_salad.jpg" alt="pasta salad">
-        </div>
-        <div class="item">
-          <img src="images/carousel_bucatini.jpg" alt="bucatini">
-        </div>
-        <div class="item">
-          <img src="images/carousel_smoked_salmon_penne.jpg" alt="pasta salad">
-        </div>
+  <div id="home-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#home-carousel" data-slide-to="1"></li>
+      <li data-target="#home-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/carousel_pasta_salad.jpg" alt="pasta salad">
       </div>
-      <a class="left carousel-control" href="#home-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#home-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      <div class="item">
+        <img src="images/carousel_bucatini.jpg" alt="bucatini">
+      </div>
+      <div class="item">
+        <img src="images/carousel_smoked_salmon_penne.jpg" alt="pasta salad">
+      </div>
     </div>
+    <a class="left carousel-control" href="#home-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#home-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div>
   
   <div class="jumbotron col-md-offset-3 col-md-6">
@@ -98,7 +96,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
       <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
     </div>
-      
+    
     <h1>Antonio's Pasta</h1>
     <p>Authentic Italian pasta products.</p>
     <p>
@@ -108,39 +106,75 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <a class="btn btn-lg btn-default" href="contact.php" role="button">Contact us</a>
     </p>
   </div>
-
-  <div class="divider">
-      <span class="icon icon-settings wow rotateIn animated" data-wow-delay=".9" style="visibility: visible;-webkit-animation-delay: .9; -moz-animation-delay: .9; animation-delay: .9;"></span>
+  
+  <div id="page-descriptions" class="row col-md-offset-1 col-md-10">
+    <div class="col-md-3">
+      <h2>About Our Company</h2>
+      <p>
+        Learn about our mission statement, history and manufacturing process.
+      </p>
+      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
     </div>
-    <section id="services" class="section services">
-      <div class="container">
-        <h2 class="title wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Our <span>Services</span></h2>
-        <h4 class="subtitle wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in. Ex quem option eos. Ei dictas propriae usu, eius omnis eu ius, aperiam efficiendi ut vis.</h4>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="service wow fadeInUpBig animated" data-wow-delay=".4s" style="visibility: visible;-webkit-animation-delay: .4s; -moz-animation-delay: .4s; animation-delay: .4s;">
-              <span class="icon icon-cloud"></span>
-              <h3>Cloud Store</h3>
-              <p>Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in. Ex quem option eos.</p>
-            </div> <!-- /.service -->
-          </div> <!-- /.col-sm-4 -->
-          <div class="col-sm-4 wow fadeInUpBig animated" data-wow-delay=".6s" style="visibility: visible;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
-            <div class="service">
-              <span class="icon icon-params"></span>
-              <h3>Great Stats</h3>
-              <p>Usu ei facer bonorum, elitr mollis at mei. Id vel omnis tollit doming. Dicant elaboraret nec te, aeque possim nec at. Usu ei facer bonorum, necsar at.</p>
-            </div> <!-- /.service -->
-          </div> <!-- /.col-sm-4 -->
-          <div class="col-sm-4 wow fadeInUpBig animated" data-wow-delay=".8s" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
-            <div class="service">
-              <span class="icon icon-paperplane"></span>
-              <h3>Fast Transfer</h3>
-              <p>Accusamus mnesarchum posidonium in sed. Ex magna munere est. Tamquam signiferumque ea sit, id sea libris detraxit, ne indoctum honestatis mel primus.</p>
-            </div> <!-- /.service -->
-          </div> <!-- /.col-sm-4 -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </section>
+    <div class="col-md-3">
+      <h2>About Our Company</h2>
+      <p>
+        Learn about our mission statement, history and manufacturing process.
+      </p>
+      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+    </div>
+    <div class="col-md-3">
+      <h2>View Food Gallery</h2>
+      <p>
+        Learn about our mission statement, history and manufacturing process.
+      </p>
+      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+    </div>
+    <div class="col-md-3">
+      <h2>Contact Us</h2>
+      <p>
+        Learn about our mission statement, history and manufacturing process.
+      </p>
+      <a class="btn btn-default" href="about.php" role="button">About &raquo;</a>
+    </div>
+  </div>
+  
+  
+  
+  <!--
+  <div class="divider">
+    <span class="icon icon-settings wow rotateIn animated" data-wow-delay=".9" style="visibility: visible;-webkit-animation-delay: .9; -moz-animation-delay: .9; animation-delay: .9;"></span>
+  </div>
+  
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="title wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Our <span>Services</span></h2>
+      <h4 class="subtitle wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in. Ex quem option eos. Ei dictas propriae usu, eius omnis eu ius, aperiam efficiendi ut vis.</h4>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="service wow fadeInUpBig animated" data-wow-delay=".4s" style="visibility: visible;-webkit-animation-delay: .4s; -moz-animation-delay: .4s; animation-delay: .4s;">
+            <span class="icon icon-cloud"></span>
+            <h3>Cloud Store</h3>
+            <p>Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in. Ex quem option eos.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow fadeInUpBig animated" data-wow-delay=".6s" style="visibility: visible;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
+          <div class="service">
+            <span class="icon icon-params"></span>
+            <h3>Great Stats</h3>
+            <p>Usu ei facer bonorum, elitr mollis at mei. Id vel omnis tollit doming. Dicant elaboraret nec te, aeque possim nec at. Usu ei facer bonorum, necsar at.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow fadeInUpBig animated" data-wow-delay=".8s" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
+          <div class="service">
+            <span class="icon icon-paperplane"></span>
+            <h3>Fast Transfer</h3>
+            <p>Accusamus mnesarchum posidonium in sed. Ex magna munere est. Tamquam signiferumque ea sit, id sea libris detraxit, ne indoctum honestatis mel primus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    -->
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
