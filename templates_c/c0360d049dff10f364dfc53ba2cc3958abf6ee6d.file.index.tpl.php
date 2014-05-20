@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 19:51:04
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 21:52:51
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:85761021653734ef00a58e4-75316201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400579461,
+      1 => 1400585270,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400571725,
+      1 => 1400586769,
       2 => 'file',
     ),
   ),
@@ -35,6 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   Antonio's Pasta | Home
 </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/carousel.css"> -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   

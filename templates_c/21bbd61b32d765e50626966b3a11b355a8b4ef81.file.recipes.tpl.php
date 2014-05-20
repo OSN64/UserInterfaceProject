@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 17:44:42
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-20 21:32:50
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:149929334153784f081e4116-30806122%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400508122,
+      1 => 1400522209,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400571725,
+      1 => 1400569530,
       2 => 'file',
     ),
   ),
