@@ -31,7 +31,7 @@ body {
   margin: auto;
   min-width: 1366px;
   height: 550px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 #jumbotron-container {
