@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 23:44:04
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 00:04:12
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:151980338537b64dfdc6649-32655799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400679841,
+      1 => 1400681049,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -73,9 +73,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div id="navbar-container" class="col-md-4">
     <div class="list-group col-md-offset-2 col-md-8">
       <p class="list-group-item">Dish Types</p>
-      <a class="list-group-item" href="#type1">Main Course</a>
-      <a class="list-group-item" href="#type2">Quick &amp; Easy</a>
-      <a class="list-group-item" href="#type3">Vegetarian</a>
+      <a class="list-group-item list-group-item-danger" href="#type1">Main Course</a>
+      <a class="list-group-item list-group-item-info" href="#type2">Quick &amp; Easy</a>
+      <a class="list-group-item list-group-item-success" href="#type3">Vegetarian</a>
     </div>
   </div>
 <div class="col-md-8">
