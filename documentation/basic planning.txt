@@ -7,6 +7,7 @@ Pages
   •	About
   •	Recipes
   •	Gallery
+  • Contact
   •	At least one more of the following:
     o	Order (if enough time)
     o	Catalogue
