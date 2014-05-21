@@ -110,21 +110,21 @@
       <p>
         Be inspired by delicious recipes that are absolutely perfect for our range of pasta.
       </p>
-      <a class="btn btn-danger" href="about.php" role="button">Recipes &raquo;</a>
+      <a class="btn btn-danger" href="recipes.php" role="button">Recipes &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Food Gallery</h2>
       <p>
         View photos of our pasta products and dishes which can be created with them.
       </p>
-      <a class="btn btn-danger" href="about.php" role="button">Gallery &raquo;</a>
+      <a class="btn btn-danger" href="gallery.php" role="button">Gallery &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Contact Us</h2>
       <p>
         Want to send us feedback or ask a question? Contact us directly via a message.
       </p>
-      <a class="btn btn-danger" href="about.php" role="button">Contact &raquo;</a>
+      <a class="btn btn-danger" href="contact.php" role="button">Contact &raquo;</a>
     </div>
   </div>
   
