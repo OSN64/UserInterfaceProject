@@ -16,9 +16,9 @@
 <div id="navbar-container" class="col-md-4">
     <div class="list-group col-md-offset-2 col-md-8">
       <p class="list-group-item">Dish Types</p>
-      <a class="list-group-item list-group-item-danger" href="#type1">Main Course</a>
-      <a class="list-group-item list-group-item-info" href="#type2">Quick &amp; Easy</a>
-      <a class="list-group-item list-group-item-success" href="#type3">Vegetarian</a>
+      <a class="list-group-item list-group-item-danger" href="#type1">Products </a>
+      <!-- <a class="list-group-item list-group-item-info" href="#type2">Quick &amp; Easy</a> -->
+      <a class="list-group-item list-group-item-success" href="#type3">Dishes</a>
     </div>
   </div>
 <div class="col-md-8">
