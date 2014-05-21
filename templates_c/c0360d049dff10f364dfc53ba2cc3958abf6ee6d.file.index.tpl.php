@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:28:33
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 00:41:47
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1585899371537b64da37ba42-33824551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400596106,
+      1 => 1400683236,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -167,21 +167,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <p>
         Be inspired by delicious recipes that are absolutely perfect for our range of pasta.
       </p>
-      <a class="btn btn-danger" href="about.php" role="button">Recipes &raquo;</a>
+      <a class="btn btn-danger" href="recipes.php" role="button">Recipes &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Food Gallery</h2>
       <p>
         View photos of our pasta products and dishes which can be created with them.
       </p>
-      <a class="btn btn-danger" href="about.php" role="button">Gallery &raquo;</a>
+      <a class="btn btn-danger" href="gallery.php" role="button">Gallery &raquo;</a>
     </div>
     <div class="col-md-3">
       <h2>Contact Us</h2>
       <p>
         Want to send us feedback or ask a question? Contact us directly via a message.
       </p>
-      <a class="btn btn-danger" href="about.php" role="button">Contact &raquo;</a>
+      <a class="btn btn-danger" href="contact.php" role="button">Contact &raquo;</a>
     </div>
   </div>
   
