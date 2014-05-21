@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:21:12
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 22:30:02
          compiled from "./templates/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:76886685537b64d81e6110-78782473%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
       0 => './templates/contact.tpl',
-      1 => 1400594846,
+      1 => 1400675400,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400594846,
+      1 => 1400596106,
       2 => 'file',
     ),
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_537b64d826c502_36802414',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_537b64d826c502_36802414')) {function content_537b64d826c502_36802414($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -80,7 +80,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         
         <div class="col-lg-12">
           <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+          <!-- <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28183.887404867084!2d153.3501464!3d-27.994327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911afec71b6fcb%3A0x1153e617105dfcca!2sCreative+Pizza!5e0!3m2!1sen!2sau!4v1400675314054" width="100%" height="400px" scrolling="no" frameborder="0"  marginheight="0" marginwidth="0" style="border:0"></iframe>
         </div>
 
       </div><!-- /.row -->
@@ -111,7 +112,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
                 <div class="form-group col-lg-12">
                   <input type="hidden" name="save" value="contact">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-danger">Submit</button>
                 </div>
               </div>
             </form>
