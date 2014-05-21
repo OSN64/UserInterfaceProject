@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:29:40
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 23:34:59
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1307843864537b64dd6854e1-08053022%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400522209,
+      1 => 1400679109,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -71,7 +71,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div id="content" class="container">
       
   <div id="navbar-container" class="col-md-4">
-    <div class="list-group col-md-offset-4 col-md-8">
+    <div class="list-group col-md-offset-2 col-md-8">
       <p class="list-group-item">Dish Types</p>
       <a class="list-group-item" href="#type1">Main Course</a>
       <a class="list-group-item" href="#type2">Quick & Easy</a>
