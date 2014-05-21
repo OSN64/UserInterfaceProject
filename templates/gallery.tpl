@@ -13,7 +13,15 @@
 {/block}
 
 {block "content"}
-<div class="col-md-offset-2 col-md-8">
+<div id="navbar-container" class="col-md-4">
+    <div class="list-group col-md-offset-2 col-md-8">
+      <p class="list-group-item">Dish Types</p>
+      <a class="list-group-item" href="#type1">Main Course</a>
+      <a class="list-group-item" href="#type2">Quick &amp; Easy</a>
+      <a class="list-group-item" href="#type3">Vegetarian</a>
+    </div>
+  </div>
+<div class="col-md-8">
   <div class="row">
     <div class="col-xs-6 col-md-3">
       <h4 style="text-align: center">Lorpsedum</h4>

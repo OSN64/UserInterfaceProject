@@ -14,7 +14,7 @@
 
 {block "content"}
   <div id="navbar-container" class="col-md-4">
-    <div class="list-group col-md-offset-4 col-md-8">
+    <div class="list-group col-md-offset-2 col-md-8">
       <p class="list-group-item">Dish Types</p>
       <a class="list-group-item" href="#type1">Main Course</a>
       <a class="list-group-item" href="#type2">Quick & Easy</a>
