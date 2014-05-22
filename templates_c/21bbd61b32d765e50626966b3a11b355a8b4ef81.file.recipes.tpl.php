@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:07:24
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:47:35
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1307843864537b64dd6854e1-08053022%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400731598,
+      1 => 1400731652,
       2 => 'file',
     ),
   ),
@@ -66,7 +66,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               </ul>
               <form class="navbar-form navbar-right" role="form">
                 <div class="form-group">
-                  <input type="text" placeholder="Linguini" class="form-control">
+                  <input type="text" placeholder="Recipe" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-success">Search</button>
               </form>

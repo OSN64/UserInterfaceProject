@@ -69,9 +69,10 @@
       <img src="images/pasta_an5.jpg" alt="..." title="asdasddas" >
     </a>
   </div>
+  
+    <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
-    <span id="dAnchor" class="anchor"></span>
     <h1 class="page-header">Dishes</h1>
   </div>
 

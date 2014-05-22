@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:47:05
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 17:52:01
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:151980338537b64dfdc6649-32655799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400734024,
+      1 => 1400734099,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400731652,
+      1 => 1400745116,
       2 => 'file',
     ),
   ),
@@ -31,6 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>
   Antonio's Pasta | Gallery
 </title>
@@ -46,8 +47,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -134,9 +133,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <img src="images/pasta_an5.jpg" alt="..." title="asdasddas" >
     </a>
   </div>
+  
+    <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
-    <span id="dAnchor" class="anchor"></span>
     <h1 class="page-header">Dishes</h1>
   </div>
 
