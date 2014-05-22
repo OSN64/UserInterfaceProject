@@ -31,7 +31,7 @@
               </ul>
               <form class="navbar-form navbar-right" role="form">
                 <div class="form-group">
-                  <input type="text" placeholder="Linguini" class="form-control">
+                  <input type="text" placeholder="Recipe" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-success">Search</button>
               </form>

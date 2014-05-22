@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 13:53:01
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:47:05
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:151980338537b64dfdc6649-32655799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400730778,
+      1 => 1400734024,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400731652,
       2 => 'file',
     ),
   ),
@@ -49,6 +49,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
             </div>
@@ -62,6 +64,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Recipe" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>
@@ -80,12 +88,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
 
 <div id="galContent" class="col-md-8">
-  <ol class="breadcrumb">
-    <li><a href="index.php">Home</a>
-    </li>
-    <li class="active">Gallery</li>
-  </ol>
-
   <div class="col-lg-12">
   <span id="pAnchor" class="anchor"></span>
       <h1 class="page-header">Products</h1>

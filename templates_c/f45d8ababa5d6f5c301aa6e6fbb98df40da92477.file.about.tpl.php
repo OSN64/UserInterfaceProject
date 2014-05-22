@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:29:31
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:10:29
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2042859478537b64dc3b5ed8-75461532%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400731652,
       2 => 'file',
     ),
   ),
@@ -49,6 +49,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
             </div>
@@ -62,6 +64,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Recipe" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>

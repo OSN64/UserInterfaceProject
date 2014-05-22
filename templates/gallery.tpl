@@ -23,12 +23,6 @@
   </div>
 
 <div id="galContent" class="col-md-8">
-  <ol class="breadcrumb">
-    <li><a href="index.php">Home</a>
-    </li>
-    <li class="active">Gallery</li>
-  </ol>
-
   <div class="col-lg-12">
   <span id="pAnchor" class="anchor"></span>
       <h1 class="page-header">Products</h1>
