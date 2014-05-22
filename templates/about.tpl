@@ -14,9 +14,6 @@
 
 {block "content"}
 <div class="col-md-offset-1 col-md-10">
-  
-  <hr class="featurette-divider">
-  
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Mission Statement</h2>
@@ -31,9 +28,6 @@
       </a>
     </div>
   </div>
-  
-  <hr class="featurette-divider">
-  
   <div class="row featurette">
     <div class="col-md-5">
       <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
@@ -48,9 +42,6 @@
       </p>
     </div>
   </div>
-  
-  <hr class="featurette-divider">
-  
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Creation Process</h2>
@@ -66,7 +57,5 @@
       </a>
     </div>
   </div>
-  
-  <hr class="featurette-divider">
 </div>
 {/block}
