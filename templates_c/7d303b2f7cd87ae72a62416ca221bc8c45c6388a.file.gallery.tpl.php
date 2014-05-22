@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 18:05:14
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 18:22:09
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1548062478537dafba6453b5-80426856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400745744,
+      1 => 1400746924,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_537dafba69f2b4_99855694',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_537dafba69f2b4_99855694')) {function content_537dafba69f2b4_99855694($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -89,45 +89,45 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <h2 class="page-header">Products</h2>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Fettuccine with Lemon Tuna and Capers</h4>
     <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas" >
+      <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="Fettuccine with Lemon Tuna and Capers" title="Fettuccine with Lemon Tuna and Capers" >
   </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Creamy Salmon and Broad Bean Fettuccine</h4>
     <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img class="img-responsive" src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+      <img class="img-responsive" src="images/carousel_bucatini.jpg" alt="Creamy Salmon and Broad Bean Fettuccine" title="Creamy Salmon and Broad Bean Fettuccine">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Creamy Bacon Spaghetti with Poached Eggs</h4>
     <a href="images/Pasta_Puttanesca_by_koishikawagirl.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/Pasta_Puttanesca_by_koishikawagirl.jpg" alt="..." title="asdasddas">
+      <img src="images/Pasta_Puttanesca_by_koishikawagirl.jpg" alt="Creamy Bacon Spaghetti with Poached Eggs" title="Creamy Bacon Spaghetti with Poached Eggs">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Chilli Prawn and Tomato Spaghetti</h4>
     <a href="images/Pasta_e_fagioli_rapida.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/Pasta_e_fagioli_rapida.jpg" alt="..." title="asdasddas">
+      <img src="images/Pasta_e_fagioli_rapida.jpg" alt="Chilli Prawn and Tomato Spaghetti" title="Chilli Prawn and Tomato Spaghetti">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Bruschetta Pasta</h4>
   <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-    <img src="images/pasta_an1.jpg" alt="..." title="asdasddas">
+    <img src="images/pasta_an1.jpg" alt="Bruschetta Pasta" title="Bruschetta Pasta">
   </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Fettuccine with lemon tuna and capers</h4>
     <a href="images/pasta_an4.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/pasta_an4.jpg" alt="..." title="asdasddas">
+      <img src="images/pasta_an4.jpg" alt="Fettuccine with lemon tuna and capers" title="Fettuccine with lemon tuna and capers">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Greek-Style Gnocchi</h4>
     <a href="images/pasta_an5.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/pasta_an5.jpg" alt="..." title="asdasddas" >
+      <img src="images/pasta_an5.jpg" alt="Greek-Style Gnocchi" title="Greek-Style Gnocchi" >
     </a>
   </div>
   
@@ -139,27 +139,27 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Pasta Salad</h4>
     <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
+      <img src="images/carousel_smoked_salmon_penne.jpg" alt="Pasta Salad" title="Pasta Salad">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Fettuccine with Mixed Mushroom Sauce</h4>
     <a href="images/pasta_an2.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/pasta_an2.jpg" alt="..." title="asdasddas">
+      <img src="images/pasta_an2.jpg" alt="Fettuccine with Mixed Mushroom Sauce" title="Fettuccine with Mixed Mushroom Sauce">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Zucchini and Tomato Lasagne</h4>
     <a href="images/Macaroni_Pasta.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/Macaroni_Pasta.jpg" alt="..." title="asdasddas">
+      <img src="images/Macaroni_Pasta.jpg" alt="Zucchini and Tomato Lasagne" title="Zucchini and Tomato Lasagne">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
+    <h4 style="text-align: center">Amatriciana</h4>
     <a href="images/pasta_an3.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/pasta_an3.jpg" alt="..." title="asdasddas">
+      <img src="images/pasta_an3.jpg" alt="Amatriciana" title="Amatriciana">
     </a>
   </div>
 </div>

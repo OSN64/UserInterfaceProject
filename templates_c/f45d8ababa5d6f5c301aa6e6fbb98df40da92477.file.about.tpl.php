@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 18:05:06
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 18:16:31
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1971903738537dafb2395184-52702198%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
     array (
       0 => './templates/about.tpl',
-      1 => 1400745607,
+      1 => 1400746093,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_537dafb23c9e11_31117698',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_537dafb23c9e11_31117698')) {function content_537dafb23c9e11_31117698($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -75,9 +75,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div id="content" class="container">
       
 <div class="col-md-offset-1 col-md-10">
-  
-  <hr class="featurette-divider">
-  
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Mission Statement</h2>
@@ -92,9 +89,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       </a>
     </div>
   </div>
-  
-  <hr class="featurette-divider">
-  
   <div class="row featurette">
     <div class="col-md-5">
       <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
@@ -109,9 +103,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       </p>
     </div>
   </div>
-  
-  <hr class="featurette-divider">
-  
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Creation Process</h2>
@@ -127,8 +118,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       </a>
     </div>
   </div>
-  
-  <hr class="featurette-divider">
 </div>
 
     </div>
