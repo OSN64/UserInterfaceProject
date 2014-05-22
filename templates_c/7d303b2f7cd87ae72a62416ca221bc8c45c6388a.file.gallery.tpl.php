@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 10:58:05
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 12:43:27
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:151980338537b64dfdc6649-32655799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400720281,
+      1 => 1400726605,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400594846,
+      1 => 1400596106,
       2 => 'file',
     ),
   ),
@@ -70,72 +70,94 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <div id="content" class="container">
       
-<div id="sidebar" class="col-md-4">
-    <div class="list-group col-md-offset-2 col-md-8">
-      <p class="list-group-item">Dish Types</p>
-      <a class="list-group-item list-group-item-danger" href="#type1">Products </a>
-      <!-- <a class="list-group-item list-group-item-info" href="#type2">Quick &amp; Easy</a> -->
-      <a class="list-group-item list-group-item-success" href="#type3">Dishes</a>
+        <div class="row">
+            <div id="sidebar" class="col-md-4">
+            <div class="list-group col-md-offset-2 col-md-8">
+              <p class="list-group-item">Dish Types</p>
+              <a class="list-group-item list-group-item-danger" href="#pAnchor">Products </a>
+              <a class="list-group-item list-group-item-success" href="#dAnchor">Dishes</a>
+            </div>
+          </div>
+          <div id="galContent" class="col-md-8">
+            <div class="col-lg-12">
+            <span id="pAnchor" class="anchor"></span>
+                <h1 class="page-header">Products</h1>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <h4 style="text-align: center">Lorpsedum</h4>
+            <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+              <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas" >
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img class="img-responsive" src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+            <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+              <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+            </a>
+            </div>
+
+            <div class="col-lg-12">
+              <span id="dAnchor" class="anchor"></span>
+              <h1 class="page-header">Dishes</h1>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+            <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
+              </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h4 style="text-align: center">Lorpsedum</h4>
+              <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+                <img src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas" >
+              </a>
+            </div>
+          </div>
     </div>
-  </div>
-<div class="col-md-8">
-  <div class="row">
-    <div class="col-xs-6 col-md-3">
-      <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas" >
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-      <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-3">
-    <h4 style="text-align: center">Lorpsedum</h4>
-      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
-      </a>
-    </div>
-  </div>
-</div>
 
     </div>
     
