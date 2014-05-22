@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 13:22:19
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:03:08
          compiled from "./templates/recipes.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1307843864537b64dd6854e1-08053022%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1320345078537d82efaf4787-41925599%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400727695,
+      1 => 1400734562,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400734918,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1307843864537b64dd6854e1-08053022',
+  'nocache_hash' => '1320345078537d82efaf4787-41925599',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_537b64dd793767_78282116',
+  'unifunc' => 'content_537d82f0bdbb64_09674489',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_537b64dd793767_78282116')) {function content_537b64dd793767_78282116($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537d82f0bdbb64_09674489')) {function content_537d82f0bdbb64_09674489($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -62,6 +62,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Linguini" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>
@@ -79,11 +85,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
   </div>
   
-  <div class="panel-group col-md-6" id="recipe-list">
-    
+  <div class="panel-group col-md-7" id="recipe-list">
     <span id="type1" class="anchor"></span>
     <h3>Main Course Recipes</h3>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d1">
@@ -97,7 +102,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d2">
@@ -111,7 +116,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d3">
@@ -125,7 +130,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d4">
@@ -144,7 +149,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <span id="type2" class="anchor"></span>
     <h3>Quick & Easy Recipes</h3>
-    <div class="panel panel-default">
+    <div class="panel panel-info">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t2-d1">
@@ -158,7 +163,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-info">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t2-d2">
@@ -177,7 +182,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <span id="type3" class="anchor"></span>
     <h3>Vegetarian Recipes</h3>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d1">
@@ -191,7 +196,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d2">
@@ -205,7 +210,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d3">
@@ -219,7 +224,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d4">
@@ -233,7 +238,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d5">

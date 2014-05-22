@@ -22,11 +22,10 @@
     </div>
   </div>
   
-  <div class="panel-group col-md-6" id="recipe-list">
-    
+  <div class="panel-group col-md-7" id="recipe-list">
     <span id="type1" class="anchor"></span>
     <h3>Main Course Recipes</h3>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d1">
@@ -40,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d2">
@@ -54,7 +53,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d3">
@@ -68,7 +67,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d4">
@@ -87,7 +86,7 @@
     
     <span id="type2" class="anchor"></span>
     <h3>Quick & Easy Recipes</h3>
-    <div class="panel panel-default">
+    <div class="panel panel-info">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t2-d1">
@@ -101,7 +100,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-info">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t2-d2">
@@ -120,7 +119,7 @@
     
     <span id="type3" class="anchor"></span>
     <h3>Vegetarian Recipes</h3>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d1">
@@ -134,7 +133,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d2">
@@ -148,7 +147,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d3">
@@ -162,7 +161,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d4">
@@ -176,7 +175,7 @@
         </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d5">

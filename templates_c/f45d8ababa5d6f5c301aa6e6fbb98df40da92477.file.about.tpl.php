@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-21 00:29:31
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:03:18
          compiled from "./templates/about.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2042859478537b64dc3b5ed8-75461532%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1777337727537d82fb704a05-93971074%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
     array (
       0 => './templates/about.tpl',
-      1 => 1400570266,
+      1 => 1400734386,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400734918,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2042859478537b64dc3b5ed8-75461532',
+  'nocache_hash' => '1777337727537d82fb704a05-93971074',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_537b64dc4ace26_70547838',
+  'unifunc' => 'content_537d82fb7ed7b7_20333748',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_537b64dc4ace26_70547838')) {function content_537b64dc4ace26_70547838($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537d82fb7ed7b7_20333748')) {function content_537d82fb7ed7b7_20333748($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -62,6 +62,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Linguini" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>
@@ -70,14 +76,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <div id="content" class="container">
       
-<div class="col-md-offset-2 col-md-8">
+<div class="col-md-offset-1 col-md-10">
+  
   <hr class="featurette-divider">
   
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Mission Statement</h2>
       <p class="lead">
-        Antonio's Pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+        Antonio's Pasta is dedicated to producing only the finest quality pasta. We take pride in our products
+        as they are representative of our commitment and authenticity.
       </p>
     </div>
     <div class="col-md-5">
@@ -98,7 +106,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div class="col-md-7">
       <h2 class="featurette-heading">History</h2>
       <p class="lead">
-        Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality ever since its origin as a family run         business.
+        Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality
+        ever since its origin as a family run business.
       </p>
     </div>
   </div>
@@ -109,7 +118,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div class="col-md-7">
       <h2 class="featurette-heading">Creation Process</h2>
       <p class="lead">
-        Our products are made at one of our manufacturing facilities nation wide. Great care has been taken to ensure that the ingredients we use are           at our standard of quality and reflects the character of our products.
+        Our products are made at one of our manufacturing facilities nation wide. Great care has been taken to
+        ensure that the ingredients we use are at our standard of quality and reflects the character of our
+        products.
       </p>
     </div>
     <div class="col-md-5">

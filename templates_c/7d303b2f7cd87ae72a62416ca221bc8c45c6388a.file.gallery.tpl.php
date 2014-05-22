@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 13:53:01
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:04:59
          compiled from "./templates/gallery.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:151980338537b64dfdc6649-32655799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1903639122537d83144af1b8-09800919%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400730778,
+      1 => 1400734265,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400734918,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '151980338537b64dfdc6649-32655799',
+  'nocache_hash' => '1903639122537d83144af1b8-09800919',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_537b64dfe42ce5_21822048',
+  'unifunc' => 'content_537d83145ca6b8_51983062',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_537b64dfe42ce5_21822048')) {function content_537b64dfe42ce5_21822048($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537d83145ca6b8_51983062')) {function content_537d83145ca6b8_51983062($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -62,6 +62,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Linguini" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>

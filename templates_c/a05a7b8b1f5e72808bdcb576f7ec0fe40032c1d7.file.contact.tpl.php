@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 13:58:08
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:05:02
          compiled from "./templates/contact.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:76886685537b64d81e6110-78782473%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1375226900537d830c80cf00-69349201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
       0 => './templates/contact.tpl',
-      1 => 1400731080,
+      1 => 1400734265,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400734918,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '76886685537b64d81e6110-78782473',
+  'nocache_hash' => '1375226900537d830c80cf00-69349201',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_537b64d826c502_36802414',
+  'unifunc' => 'content_537d830c94a563_74007112',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_537b64d826c502_36802414')) {function content_537b64d826c502_36802414($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537d830c94a563_74007112')) {function content_537d830c94a563_74007112($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -62,6 +62,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li class="active"><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Linguini" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>

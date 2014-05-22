@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:05:37
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:02:00
          compiled from "./templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1585899371537b64da37ba42-33824551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1747729463537d8300c368d6-84239138%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c0360d049dff10f364dfc53ba2cc3958abf6ee6d' => 
     array (
       0 => './templates/index.tpl',
-      1 => 1400723333,
+      1 => 1400718180,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400731533,
+      1 => 1400734918,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1585899371537b64da37ba42-33824551',
+  'nocache_hash' => '1747729463537d8300c368d6-84239138',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_537b64da46cb56_35123539',
+  'unifunc' => 'content_537d8300cabca8_23970359',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_537b64da46cb56_35123539')) {function content_537b64da46cb56_35123539($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_537d8300cabca8_23970359')) {function content_537d8300cabca8_23970359($_smarty_tpl) {?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -46,8 +46,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
