@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:02:48
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:05:37
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1585899371537b64da37ba42-33824551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400731367,
+      1 => 1400731533,
       2 => 'file',
     ),
   ),
@@ -46,6 +46,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
