@@ -24,7 +24,7 @@
   
   <div class="panel-group col-md-7" id="recipe-list">
     <span id="type1" class="anchor"></span>
-    <h3>Main Course Recipes</h3>
+    <h2 class="page-header">Main Course Recipes</h2>
     <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -85,7 +85,7 @@
     <br><br>
     
     <span id="type2" class="anchor"></span>
-    <h3>Quick & Easy Recipes</h3>
+    <h2 class="page-header">Quick & Easy Recipes</h2>
     <div class="panel panel-info">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -118,7 +118,7 @@
     <br><br>
     
     <span id="type3" class="anchor"></span>
-    <h3>Vegetarian Recipes</h3>
+    <h2 class="page-header">Vegetarian Recipes</h2>
     <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">

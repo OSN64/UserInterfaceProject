@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:03:18
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 16:14:44
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1777337727537d82fb704a05-93971074%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
     array (
       0 => './templates/about.tpl',
-      1 => 1400734386,
+      1 => 1400736720,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400734918,
+      1 => 1400738880,
       2 => 'file',
     ),
   ),
@@ -39,37 +39,34 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </head>
   
   <body>
-    <div class="navbar-wrapper">
-      <div class="container col-md-offset-1 col-md-10">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                
+    <div id="background-overlay"></div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
   <li><a href="index.php">Home</a></li>
   <li class="active"><a href="about.php">About</a></li>
   <li><a href="recipes.php">Recipes</a></li>
   <li><a href="gallery.php">Gallery</a></li>
   <li><a href="contact.php">Contact</a></li>
 
-              </ul>
-              <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                  <input type="text" placeholder="Linguini" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Search</button>
-              </form>
+          </ul>
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="e.g. Linguini" class="form-control">
             </div>
-          </div>
+            <button type="submit" class="btn btn-success">Search</button>
+          </form>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:03:08
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 16:15:01
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1320345078537d82efaf4787-41925599%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400734562,
+      1 => 1400737065,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400734918,
+      1 => 1400738880,
       2 => 'file',
     ),
   ),
@@ -39,37 +39,34 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </head>
   
   <body>
-    <div class="navbar-wrapper">
-      <div class="container col-md-offset-1 col-md-10">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                
+    <div id="background-overlay"></div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
   <li><a href="index.php">Home</a></li>
   <li><a href="about.php">About</a></li>
   <li class="active"><a href="recipes.php">Recipes</a></li>
   <li><a href="gallery.php">Gallery</a></li>
   <li><a href="contact.php">Contact</a></li>
 
-              </ul>
-              <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                  <input type="text" placeholder="Linguini" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Search</button>
-              </form>
+          </ul>
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="e.g. Linguini" class="form-control">
             </div>
-          </div>
+            <button type="submit" class="btn btn-success">Search</button>
+          </form>
         </div>
       </div>
     </div>
@@ -87,7 +84,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   
   <div class="panel-group col-md-7" id="recipe-list">
     <span id="type1" class="anchor"></span>
-    <h3>Main Course Recipes</h3>
+    <h2 class="page-header">Main Course Recipes</h2>
     <div class="panel panel-danger">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -148,7 +145,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <br><br>
     
     <span id="type2" class="anchor"></span>
-    <h3>Quick & Easy Recipes</h3>
+    <h2 class="page-header">Quick & Easy Recipes</h2>
     <div class="panel panel-info">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -181,7 +178,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <br><br>
     
     <span id="type3" class="anchor"></span>
-    <h3>Vegetarian Recipes</h3>
+    <h2 class="page-header">Vegetarian Recipes</h2>
     <div class="panel panel-success">
       <div class="panel-heading">
         <h4 class="panel-title">

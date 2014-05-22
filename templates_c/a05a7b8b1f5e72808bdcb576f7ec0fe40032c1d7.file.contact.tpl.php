@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:05:02
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 16:17:45
          compiled from "./templates/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1375226900537d830c80cf00-69349201%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
       0 => './templates/contact.tpl',
-      1 => 1400734265,
+      1 => 1400739464,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400734918,
+      1 => 1400738880,
       2 => 'file',
     ),
   ),
@@ -39,37 +39,34 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </head>
   
   <body>
-    <div class="navbar-wrapper">
-      <div class="container col-md-offset-1 col-md-10">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                
+    <div id="background-overlay"></div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
   <li><a href="index.php">Home</a></li>
   <li><a href="about.php">About</a></li>
   <li><a href="recipes.php">Recipes</a></li>
   <li><a href="gallery.php">Gallery</a></li>
   <li class="active"><a href="contact.php">Contact</a></li>
 
-              </ul>
-              <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                  <input type="text" placeholder="Linguini" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Search</button>
-              </form>
+          </ul>
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="e.g. Linguini" class="form-control">
             </div>
-          </div>
+            <button type="submit" class="btn btn-success">Search</button>
+          </form>
         </div>
       </div>
     </div>
@@ -82,8 +79,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="col-lg-12">
           <h1 class="page-header">Contact <br> <small>We'd Love to Hear From You!</small></h1>
         </div>
-        <div class="col-lg-12">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28183.887404867084!2d153.3501464!3d-27.994327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911afec71b6fcb%3A0x1153e617105dfcca!2sCreative+Pizza!5e0!3m2!1sen!2sau!4v1400675314054" width="100%" height="400px" scrolling="no" frameborder="0"  marginheight="0" marginwidth="0" style="border:0"></iframe>
+        <div class="col-lg-12" style="background: white; padding: 0px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28183.887404867084!2d153.3501464!3d-27.994327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911afec71b6fcb%3A0x1153e617105dfcca!2sCreative+Pizza!5e0!3m2!1sen!2sau!4v1400675314054" width="100%" height="500px" scrolling="no" frameborder="0"  marginheight="0" marginwidth="0" style="border:0"></iframe>
         </div>
       </div><!-- /.row -->
       

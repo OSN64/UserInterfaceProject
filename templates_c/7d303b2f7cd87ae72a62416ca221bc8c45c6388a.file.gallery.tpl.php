@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 15:04:59
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 16:15:06
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1903639122537d83144af1b8-09800919%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400734265,
+      1 => 1400737650,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400734918,
+      1 => 1400738880,
       2 => 'file',
     ),
   ),
@@ -39,37 +39,34 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </head>
   
   <body>
-    <div class="navbar-wrapper">
-      <div class="container col-md-offset-1 col-md-10">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                
+    <div id="background-overlay"></div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Antonio's Pasta</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
   <li><a href="index.php">Home</a></li>
   <li><a href="about.php">About</a></li>
   <li><a href="recipes.php">Recipes</a></li>
   <li class="active"><a href="gallery.php">Gallery</a></li>
   <li><a href="contact.php">Contact</a></li>
 
-              </ul>
-              <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                  <input type="text" placeholder="Linguini" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Search</button>
-              </form>
+          </ul>
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="e.g. Linguini" class="form-control">
             </div>
-          </div>
+            <button type="submit" class="btn btn-success">Search</button>
+          </form>
         </div>
       </div>
     </div>
@@ -86,15 +83,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
 
 <div id="galContent" class="col-md-8">
-  <ol class="breadcrumb">
-    <li><a href="index.php">Home</a>
-    </li>
-    <li class="active">Gallery</li>
-  </ol>
-
   <div class="col-lg-12">
   <span id="pAnchor" class="anchor"></span>
-      <h1 class="page-header">Products</h1>
+      <h2 class="page-header">Products</h2>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
@@ -141,7 +132,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
   <div class="col-lg-12">
     <span id="dAnchor" class="anchor"></span>
-    <h1 class="page-header">Dishes</h1>
+    <h2 class="page-header">Dishes</h2>
   </div>
 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
