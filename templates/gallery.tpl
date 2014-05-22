@@ -24,8 +24,8 @@
 
 <div id="galContent" class="col-md-8">
   <div class="col-lg-12">
-  <span id="pAnchor" class="anchor"></span>
-      <h2 class="page-header">Products</h2>
+    <span id="pAnchor" class="anchor"></span>
+    <h2 class="page-header">Products</h2>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Fettuccine with Lemon Tuna and Capers</h4>
@@ -73,8 +73,8 @@
   <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
-    <h1 class="page-header">Dishes</h1>
     <span id="dAnchor" class="anchor"></span>
+    <h1 class="page-header">Dishes</h1>
   </div>
 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">

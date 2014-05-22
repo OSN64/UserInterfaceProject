@@ -6,7 +6,6 @@ body {
   background-attachment: fixed;
   
 }
-
 #background-overlay {
   position: absolute;
   top: 0;
@@ -16,29 +15,24 @@ body {
   width: 100%;
   z-index: 0;
 }
-
 #content {
   padding: 50px 0 4em 0;
   margin: 0;
   width: 100%;
 }
-
 .navbar-inverse .navbar-brand {
   color: #d9534f;
 }
-
 html {
   position: relative;
   min-height: 100%;
 }
-
 .anchor {
   display: block;
   height: 50px;
   margin-top: -50px;
   visibility: hidden;
 }
-
 #footer {
   position: absolute;
   bottom: 0;
@@ -48,34 +42,27 @@ html {
   border-top: 1px solid #080808;
   text-align: center;
 }
-
 #footer p {
   margin: 0;
   line-height: 39px;
 }
-
 #home-carousel {
   margin: auto;
   max-width: 1300px;
   min-height: 400px;
 }
-
 #home-carousel .item {
   width: 100%;
   overflow: hidden;
 }
-
 #home-carousel img {
   margin: auto;
   min-height: 400px;
   min-width: 800px;
-  /*overflow: hidden;*/
 }
-
 .carousel-caption {
   top: 4em;
 }
-
 .carousel-caption .jumbotron {
   margin: 0;
   background: rgba(255, 255, 255, 0.88);
@@ -84,7 +71,6 @@ html {
   text-shadow: none;
   max-height: 270px;
 }
-
 #page-descriptions {
   margin-top: 1em;
   text-align: center;
@@ -114,9 +100,6 @@ html {
   padding: 2em;
   overflow: hidden;
 }
-/*.list-group{
-  padding-top: 20px;
-}*/
 #galContent{
   padding-right: 10%
 }
@@ -127,21 +110,19 @@ html {
   float: right;
   width: 50%;
 }
+/*this is for the validion in the form*/
 @import url('./css/bootstrap.min.css');
 @import url('./css/bootstrap-responsive.min.css');
-
-/* New styles below */
-
-    label.valid {
-      width: 24px;
-      height: 24px;
-      background: url(../images/valid.png) center center no-repeat;
-      display: inline-block;
-      text-indent: -9999px;
-    }
-    label.error {
-      font-weight: bold;
-      color: red;
-      padding: 2px 8px;
-      margin-top: 2px;
-    }
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(../images/valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}

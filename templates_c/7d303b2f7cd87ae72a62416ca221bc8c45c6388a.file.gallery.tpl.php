@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 22:45:21
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 23:03:59
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1548062478537dafba6453b5-80426856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400762576,
+      1 => 1400763318,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400745853,
+      1 => 1400763712,
       2 => 'file',
     ),
   ),
@@ -85,8 +85,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <div id="galContent" class="col-md-8">
   <div class="col-lg-12">
-  <span id="pAnchor" class="anchor"></span>
-      <h2 class="page-header">Products</h2>
+    <span id="pAnchor" class="anchor"></span>
+    <h2 class="page-header">Products</h2>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Fettuccine with Lemon Tuna and Capers</h4>
@@ -134,8 +134,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
-    <h1 class="page-header">Dishes</h1>
     <span id="dAnchor" class="anchor"></span>
+    <h1 class="page-header">Dishes</h1>
   </div>
 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -170,19 +170,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <p class="text-muted">&copy; 2014 Antonio's Pasta</p>
     </div>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- Add mousewheel plugin (this is optional) -->
     <script type="text/javascript" src="./fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
     <!-- Add fancyBox -->
-    <!-- <script type="text/javascript" src="./fancybox/source/jquery.fancybox.js?v=2.1.5"></script> -->
     <link rel="stylesheet" href="./fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
     <!-- Optionally add helpers - button, thumbnail and/or media -->
     <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <!-- <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script> -->
     <link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
