@@ -24,17 +24,15 @@
 
 <div id="galContent" class="col-md-8">
   <ol class="breadcrumb">
-    <li><a href="index.html">Home</a>
+    <li><a href="index.php">Home</a>
     </li>
-    <li class="active">Services</li>
+    <li class="active">Gallery</li>
   </ol>
-  
+
   <div class="col-lg-12">
   <span id="pAnchor" class="anchor"></span>
       <h1 class="page-header">Products</h1>
   </div>
-<!-- min-height: 30%;
-max-height: 30%; -->
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
     <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
@@ -65,6 +63,18 @@ max-height: 30%; -->
     <img src="images/pasta_an1.jpg" alt="..." title="asdasddas">
   </a>
   </div>
+  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+    <h4 style="text-align: center">Lorpsedum</h4>
+    <a href="images/pasta_an4.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an4.jpg" alt="..." title="asdasddas">
+    </a>
+  </div>
+  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+    <h4 style="text-align: center">Lorpsedum</h4>
+    <a href="images/pasta_an5.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an5.jpg" alt="..." title="asdasddas" >
+    </a>
+  </div>
 
   <div class="col-lg-12">
     <span id="dAnchor" class="anchor"></span>
@@ -79,32 +89,20 @@ max-height: 30%; -->
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+    <a href="images/pasta_an2.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an2.jpg" alt="..." title="asdasddas">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
+    <a href="images/Macaroni_Pasta.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/Macaroni_Pasta.jpg" alt="..." title="asdasddas">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas" >
+    <a href="images/pasta_an3.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an3.jpg" alt="..." title="asdasddas">
     </a>
   </div>
 </div>

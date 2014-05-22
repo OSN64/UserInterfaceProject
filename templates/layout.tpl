@@ -27,6 +27,12 @@
               <ul class="nav navbar-nav">
                 {block "nav-links"}{/block}
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Linguini" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>

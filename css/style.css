@@ -102,6 +102,9 @@ html {
 #galContent{
   padding-right: 10%
 }
+.breadcrumb {
+  margin-top: 2%;
+}
 
 @import url('./css/bootstrap.min.css');
 @import url('./css/bootstrap-responsive.min.css');

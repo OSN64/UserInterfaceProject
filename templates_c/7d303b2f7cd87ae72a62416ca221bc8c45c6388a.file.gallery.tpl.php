@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 13:23:15
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 13:53:01
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:151980338537b64dfdc6649-32655799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400728993,
+      1 => 1400730778,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -81,17 +81,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <div id="galContent" class="col-md-8">
   <ol class="breadcrumb">
-    <li><a href="index.html">Home</a>
+    <li><a href="index.php">Home</a>
     </li>
-    <li class="active">Services</li>
+    <li class="active">Gallery</li>
   </ol>
-  
+
   <div class="col-lg-12">
   <span id="pAnchor" class="anchor"></span>
       <h1 class="page-header">Products</h1>
   </div>
-<!-- min-height: 30%;
-max-height: 30%; -->
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
     <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
@@ -122,6 +120,18 @@ max-height: 30%; -->
     <img src="images/pasta_an1.jpg" alt="..." title="asdasddas">
   </a>
   </div>
+  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+    <h4 style="text-align: center">Lorpsedum</h4>
+    <a href="images/pasta_an4.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an4.jpg" alt="..." title="asdasddas">
+    </a>
+  </div>
+  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+    <h4 style="text-align: center">Lorpsedum</h4>
+    <a href="images/pasta_an5.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an5.jpg" alt="..." title="asdasddas" >
+    </a>
+  </div>
 
   <div class="col-lg-12">
     <span id="dAnchor" class="anchor"></span>
@@ -136,32 +146,20 @@ max-height: 30%; -->
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
+    <a href="images/pasta_an2.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an2.jpg" alt="..." title="asdasddas">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
+    <a href="images/Macaroni_Pasta.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/Macaroni_Pasta.jpg" alt="..." title="asdasddas">
     </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_bucatini.jpg" alt="..." title="asdasddas">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_smoked_salmon_penne.jpg" alt="..." title="asdasddas">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <h4 style="text-align: center">Lorpsedum</h4>
-    <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-      <img src="images/carousel_pasta_salad.jpg" alt="..." title="asdasddas" >
+    <a href="images/pasta_an3.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an3.jpg" alt="..." title="asdasddas">
     </a>
   </div>
 </div>

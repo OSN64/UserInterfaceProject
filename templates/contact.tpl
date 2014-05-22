@@ -57,14 +57,14 @@
         </div>
 
         <div class="col-sm-4">
-          <h3>Modern Business</h3>
-          <h4>A Start Bootstrap Template</h4>
+          <h3>Antonio's Pasta</h3>
+          <h4></h4>
           <p>
-            5555 44th Street N.<br>
-            Bootstrapville, CA 32323<br>
+            1235 464th Street N.<br>
+            BrownVile, QLD 54236<br>
           </p>
-          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (555) 984-3600</p>
-          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></p>
+          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (04) 235-1235</p>
+          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:feedback@antoniopasta.techthrones.com">feedback@antoniopasta.techthrones.com</a></p>
           <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
         </div>
 

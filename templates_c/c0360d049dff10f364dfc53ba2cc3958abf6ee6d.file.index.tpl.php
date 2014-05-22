@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 12:04:53
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 14:02:48
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1585899371537b64da37ba42-33824551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400731367,
       2 => 'file',
     ),
   ),
@@ -62,6 +62,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <li><a href="contact.php">Contact</a></li>
 
               </ul>
+              <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Linguini" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+              </form>
             </div>
           </div>
         </div>
