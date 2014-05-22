@@ -23,6 +23,7 @@
   </div>
   
   <div class="panel-group col-md-6" id="recipe-list">
+    
     <span id="type1" class="anchor"></span>
     <h3>Main Course Recipes</h3>
     <div class="panel panel-default">
