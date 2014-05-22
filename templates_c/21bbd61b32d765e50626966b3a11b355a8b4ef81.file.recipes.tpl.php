@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 00:06:20
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 10:52:07
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1307843864537b64dd6854e1-08053022%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400681078,
+      1 => 1400719917,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400596106,
+      1 => 1400594846,
       2 => 'file',
     ),
   ),
@@ -80,7 +80,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
   
   <div class="panel-group col-md-6" id="recipe-list">
-    <h3 id="type1">Main Course Recipes</h3>
+    <span id="type1" class="anchor"></span>
+    <h3>Main Course Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -140,7 +141,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <br><br>
     
-    <h3 id="type2">Quick & Easy Recipes</h3>
+    <span id="type2" class="anchor"></span>
+    <h3>Quick & Easy Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -172,7 +174,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <br><br>
     
-    <h3 id="type3">Vegetarian Recipes</h3>
+    <span id="type3" class="anchor"></span>
+    <h3>Vegetarian Recipes</h3>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
