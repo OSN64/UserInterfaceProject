@@ -73,12 +73,8 @@
     <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
-<<<<<<< HEAD
     <h1 class="page-header">Dishes</h1>
-=======
     <span id="dAnchor" class="anchor"></span>
-    <h2 class="page-header">Dishes</h2>
->>>>>>> 19303cfb7ff6718dcde904be798ff927e1539243
   </div>
 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
