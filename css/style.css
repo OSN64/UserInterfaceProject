@@ -75,18 +75,18 @@ html {
   text-align: center;
 }
 
-#navbar-container {
+#sidebar {
   margin-top: 2em;
   text-align: center;
   z-index: 10;
 }
 
-#navbar-container .list-group-item {
+#sidebar .list-group-item {
   padding: 0.5em;
   border-color: #080808;
 }
 
-#navbar-container p {
+#sidebar p {
   background-color: #222222;
   color: white;
   font-weight: bold;
