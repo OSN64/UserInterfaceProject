@@ -76,32 +76,11 @@
     <a class="right carousel-control" href="#home-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div>
   
-  
-  <!--
-  <div class="jumbotron col-md-offset-3 col-md-6">
-    <div class="stars">
-      <span class="glyphicon glyphicon-star wow fadeInLeft animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
-      <span class="glyphicon glyphicon-star wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
-      <span class="glyphicon glyphicon-star wow fadeInRight animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"></span>
-    </div>
-    
-    <h1>Antonio's Pasta</h1>
-    <p>Authentic Italian pasta products.</p>
-    <p>
-      <a class="btn btn-lg btn-default" href="about.php" role="button">About us</a>
-      <a class="btn btn-lg btn-default" href="recipes.php" role="button">View recipes</a>
-      <a class="btn btn-lg btn-default" href="gallery.php" role="button">View gallery</a>
-      <a class="btn btn-lg btn-default" href="contact.php" role="button">Contact us</a>
-    </p>
-  </div>
-  -->
-  
-  
   <div id="page-descriptions" class="row col-md-offset-1 col-md-10">
     <div class="col-md-3">
       <h2>About Us</h2>
       <p>
-        Learn about our mission statement, company history and manufacturing process.
+        Learn about our mission statement, company history and creation process.
       </p>
       <a class="btn btn-danger" href="about.php" role="button">About &raquo;</a>
     </div>
@@ -127,42 +106,4 @@
       <a class="btn btn-danger" href="contact.php" role="button">Contact &raquo;</a>
     </div>
   </div>
-  
-  
-  
-  <!--
-  <div class="divider">
-    <span class="icon icon-settings wow rotateIn animated" data-wow-delay=".9" style="visibility: visible;-webkit-animation-delay: .9; -moz-animation-delay: .9; animation-delay: .9;"></span>
-  </div>
-  
-  <section id="services" class="section services">
-    <div class="container">
-      <h2 class="title wow fadeInDown animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Our <span>Services</span></h2>
-      <h4 class="subtitle wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in. Ex quem option eos. Ei dictas propriae usu, eius omnis eu ius, aperiam efficiendi ut vis.</h4>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="service wow fadeInUpBig animated" data-wow-delay=".4s" style="visibility: visible;-webkit-animation-delay: .4s; -moz-animation-delay: .4s; animation-delay: .4s;">
-            <span class="icon icon-cloud"></span>
-            <h3>Cloud Store</h3>
-            <p>Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in. Ex quem option eos.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow fadeInUpBig animated" data-wow-delay=".6s" style="visibility: visible;-webkit-animation-delay: .6s; -moz-animation-delay: .6s; animation-delay: .6s;">
-          <div class="service">
-            <span class="icon icon-params"></span>
-            <h3>Great Stats</h3>
-            <p>Usu ei facer bonorum, elitr mollis at mei. Id vel omnis tollit doming. Dicant elaboraret nec te, aeque possim nec at. Usu ei facer bonorum, necsar at.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow fadeInUpBig animated" data-wow-delay=".8s" style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
-          <div class="service">
-            <span class="icon icon-paperplane"></span>
-            <h3>Fast Transfer</h3>
-            <p>Accusamus mnesarchum posidonium in sed. Ex magna munere est. Tamquam signiferumque ea sit, id sea libris detraxit, ne indoctum honestatis mel primus.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-    -->
 {/block}
