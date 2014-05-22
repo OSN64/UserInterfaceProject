@@ -123,7 +123,10 @@ html {
 .breadcrumb {
   margin-top: 2%;
 }
-
+.recimg{
+  float: right;
+  width: 50%;
+}
 @import url('./css/bootstrap.min.css');
 @import url('./css/bootstrap-responsive.min.css');
 

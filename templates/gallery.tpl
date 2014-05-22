@@ -31,8 +31,8 @@
     <h4 style="text-align: center">Fettuccine with Lemon Tuna and Capers</h4>
     <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
       <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="Fettuccine with Lemon Tuna and Capers" title="Fettuccine with Lemon Tuna and Capers" >
-  </a>
-  </div>
+    </a>
+  </div> 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Creamy Salmon and Broad Bean Fettuccine</h4>
     <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
@@ -53,9 +53,9 @@
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Bruschetta Pasta</h4>
-  <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-    <img src="images/pasta_an1.jpg" alt="Bruschetta Pasta" title="Bruschetta Pasta">
-  </a>
+    <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an1.jpg" alt="Bruschetta Pasta" title="Bruschetta Pasta">
+    </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Fettuccine with lemon tuna and capers</h4>
@@ -70,7 +70,7 @@
     </a>
   </div>
   
-    <span id="dAnchor" class="anchor"></span>
+  <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
     <h1 class="page-header">Dishes</h1>

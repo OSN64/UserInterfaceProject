@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 18:22:09
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-22 22:45:21
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1548062478537dafba6453b5-80426856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400746924,
+      1 => 1400762576,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -92,8 +92,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <h4 style="text-align: center">Fettuccine with Lemon Tuna and Capers</h4>
     <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
       <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="Fettuccine with Lemon Tuna and Capers" title="Fettuccine with Lemon Tuna and Capers" >
-  </a>
-  </div>
+    </a>
+  </div> 
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Creamy Salmon and Broad Bean Fettuccine</h4>
     <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
@@ -114,9 +114,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Bruschetta Pasta</h4>
-  <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-    <img src="images/pasta_an1.jpg" alt="Bruschetta Pasta" title="Bruschetta Pasta">
-  </a>
+    <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <img src="images/pasta_an1.jpg" alt="Bruschetta Pasta" title="Bruschetta Pasta">
+    </a>
   </div>
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
     <h4 style="text-align: center">Fettuccine with lemon tuna and capers</h4>
@@ -131,7 +131,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </a>
   </div>
   
-    <span id="dAnchor" class="anchor"></span>
+  <span id="dAnchor" class="anchor"></span>
 
   <div class="col-lg-12">
     <h1 class="page-header">Dishes</h1>
