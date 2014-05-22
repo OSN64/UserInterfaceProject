@@ -13,14 +13,16 @@
 {/block}
 
 {block "content"}
-<div class="col-md-offset-2 col-md-8">
+<div class="col-md-offset-1 col-md-10">
+  
   <hr class="featurette-divider">
   
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Mission Statement</h2>
       <p class="lead">
-        Antonio's Pasta is dedicated to only producing the finest quality pasta. Some other stuff here.
+        Antonio's Pasta is dedicated to producing only the finest quality pasta. We take pride in our products
+        as they are representative of our commitment and authenticity.
       </p>
     </div>
     <div class="col-md-5">
@@ -41,7 +43,8 @@
     <div class="col-md-7">
       <h2 class="featurette-heading">History</h2>
       <p class="lead">
-        Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality ever since its origin as a family run         business.
+        Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality
+        ever since its origin as a family run business.
       </p>
     </div>
   </div>
@@ -52,7 +55,9 @@
     <div class="col-md-7">
       <h2 class="featurette-heading">Creation Process</h2>
       <p class="lead">
-        Our products are made at one of our manufacturing facilities nation wide. Great care has been taken to ensure that the ingredients we use are           at our standard of quality and reflects the character of our products.
+        Our products are made at one of our manufacturing facilities nation wide. Great care has been taken to
+        ensure that the ingredients we use are at our standard of quality and reflects the character of our
+        products.
       </p>
     </div>
     <div class="col-md-5">
