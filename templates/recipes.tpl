@@ -29,13 +29,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d1">
-            Type 1 Dish 1
+            Fettuccine with Lemon Tuna and Capers
           </a>
         </h4>
       </div>
       <div id="t1-d1" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 1 dish 1.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -43,13 +70,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d2">
-            Type 1 Dish 2
+            Creamy Salmon and Broad Bean Fettuccine
           </a>
         </h4>
       </div>
       <div id="t1-d2" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 1 dish 2.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -57,13 +111,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d3">
-            Type 1 Dish 3
+            Creamy Bacon Spaghetti with Poached Eggs
           </a>
         </h4>
       </div>
       <div id="t1-d3" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 1 dish 3.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -71,13 +152,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t1-d4">
-            Type 1 Dish 4
+            Fettuccine Boscaiola
           </a>
         </h4>
       </div>
       <div id="t1-d4" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 1 dish 4.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -90,13 +198,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t2-d1">
-            Type 2 Dish 1
+            Pea, Mint and Prosciutto Pasta
           </a>
         </h4>
       </div>
       <div id="t2-d1" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 2 dish 1.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -104,13 +239,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t2-d2">
-            Type 2 Dish 2
+            Chilli Prawn and Tomato Spaghetti
           </a>
         </h4>
       </div>
       <div id="t2-d2" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 2 dish 2.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -123,13 +285,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d1">
-            Type 3 Dish 1
+            Bruschetta Pasta
           </a>
         </h4>
       </div>
       <div id="t3-d1" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 3 dish 1.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -137,13 +326,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d2">
-            Type 3 Dish 2
+            Pasta Salad
           </a>
         </h4>
       </div>
       <div id="t3-d2" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 3 dish 2.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -151,13 +367,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d3">
-            Type 3 Dish 3
+            Fettuccine with Mixed Mushroom Sauce
           </a>
         </h4>
       </div>
       <div id="t3-d3" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 3 dish 3.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -165,13 +408,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d4">
-            Type 3 Dish 4
+            Zucchini and Tomato Lasagne
           </a>
         </h4>
       </div>
       <div id="t3-d4" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 3 dish 4.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -179,13 +449,40 @@
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#recipe-list" href="#t3-d5">
-            Type 3 Dish 5
+            Greek-Style Gnocchi 
           </a>
         </h4>
       </div>
       <div id="t3-d5" class="panel-collapse collapse">
         <div class="panel-body">
-          Recipe for type 3 dish 5.
+          <h4>Ingredients</h4>
+          <ul>
+            <li>400g Antonio's bavette pasta</li>
+            <li>4 ripe tomatoes, roughly chopped</li>
+            <li>1 red onion, chopped</li>
+            <li>1 garlic clove, chopped</li>
+            <li>2 tablespoons extra virgin olive oil</li>
+            <li>1 tablespoon red wine vinegar</li>
+            <li>1/2 cup roughly torn fresh basil</li>
+            <li>2 tablespoons fresh oregano leaves</li>
+          </ul>
+          
+          <br>
+          
+          <h4>Method</h4>
+          <ol>
+            <li>
+              Maecenas eu placerat ante. Fusce ut neque justo, et aliquet enim. In hac
+              habitasse platea dictumst. Nullam commodo neque erat, vitae facilisis erat.
+            </li>
+            <li>
+              Morbi et sem orci. Praesent accumsan odio in ante ullamcorper id pellentesque
+              mauris rhoncus.
+            </li>
+            <li>
+              Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+            </li>
+          </ol>
         </div>
       </div>
     </div>
