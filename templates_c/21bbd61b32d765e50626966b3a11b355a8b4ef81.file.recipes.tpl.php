@@ -3,7 +3,7 @@
 <?php /*%%SmartyHeaderCode:61371423537dafb5c99cf8-43336370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
-asdasdasdasd  array (
+  array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
