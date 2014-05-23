@@ -100,15 +100,24 @@ html {
   padding: 2em;
   overflow: hidden;
 }
+
 #galContent{
   padding-right: 10%
 }
+
 .breadcrumb {
   margin-top: 2%;
 }
-.recimg{
+
+.recimg {
   float: right;
   width: 50%;
+}
+
+.recimg .caption {
+  margin: 0;
+  padding: 2px;
+  text-align: center;
 }
 /*this is for the validion in the form*/
 @import url('./css/bootstrap.min.css');
