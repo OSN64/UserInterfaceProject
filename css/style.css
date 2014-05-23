@@ -97,8 +97,21 @@ html {
   margin: 4em 2em;
   background: white;
   border-radius: 1em;
-  padding: 2em;
-  overflow: hidden;
+  padding: 2%;
+}
+
+.featurette .vertical-middle {
+  margin: 0;
+  padding: 0 1%;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.vertical-middle a {
+  margin: auto;
+  padding: auto;
+  vertical-align: middle;
 }
 
 #galContent{
@@ -114,7 +127,7 @@ html {
   width: 50%;
 }
 
-.recimg .caption {
+.recimg .caption, .featurette .caption {
   margin: 0;
   padding: 2px;
   text-align: center;

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 10:05:26
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 12:16:23
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1971903738537dafb2395184-52702198%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
     array (
       0 => './templates/about.tpl',
-      1 => 1400748897,
+      1 => 1400811381,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -76,26 +76,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       
 <div class="col-md-offset-1 col-md-10">
   <div class="row featurette">
-    <div class="col-md-7">
+    <div class="col-md-7 vertical-middle">
       <h2 class="featurette-heading">Mission Statement</h2>
       <p class="lead">
         Antonio's Pasta is dedicated to producing only the finest quality pasta. We take pride in our products
         as they are representative of our commitment and authenticity.
       </p>
-    </div>
-    <div class="col-md-5">
+    </div><div class="col-md-5 vertical-middle">
       <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
+        <p class="caption">Caption</p>
       </a>
     </div>
   </div>
   <div class="row featurette">
-    <div class="col-md-5">
+    <div class="col-md-5 vertical-middle">
       <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_bucatini.jpg" alt="...">
+        <p class="caption">Caption</p>
       </a>
-    </div>
-    <div class="col-md-7">
+    </div><div class="col-md-7 vertical-middle">
       <h2 class="featurette-heading">History</h2>
       <p class="lead">
         Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality
@@ -104,17 +104,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
   </div>
   <div class="row featurette">
-    <div class="col-md-7">
+    <div class="col-md-7 vertical-middle">
       <h2 class="featurette-heading">Creation Process</h2>
       <p class="lead">
         Our products are made at one of our manufacturing facilities nation wide. Great care has been taken to
         ensure that the ingredients we use are at our standard of quality and reflects the character of our
         products.
       </p>
-    </div>
-    <div class="col-md-5">
+    </div><div class="col-md-5 vertical-middle">
       <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img src="images/carousel_pasta_salad.jpg" alt="...">
+        <p class="caption">Caption</p>
       </a>
     </div>
   </div>
