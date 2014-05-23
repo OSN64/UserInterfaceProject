@@ -28,7 +28,7 @@
   
   <div class="row">
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <a href="images/gallery_farfelle.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+      <a href="images/gallery_farfalle.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
         <img class="img-responsive" src="images/gallery_farfalle.jpg" alt="Farfalle" title="Farfalle" >
         <p class="caption">Farfalle</p>
       </a>
@@ -64,33 +64,45 @@
 
   <div class="row">
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <a href="images/gallery_farfelle.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img class="img-responsive" src="images/gallery_farfalle.jpg" alt="Farfalle" title="Farfalle" >
-        <p class="caption">Farfalle</p>
+      <a href="images/gallery_puttanesca.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_puttanesca.jpg" alt="Puttanesca" title="Puttanesca" >
+        <p class="caption">Puttanesca</p>
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <a href="images/gallery_strozzapreti.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img class="img-responsive" src="images/gallery_strozzapreti.jpg" alt="Strozzapreti" title="Strozzapreti">
-        <p class="caption">Strozzapreti</p>
+      <a href="images/gallery_macaroni.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_macaroni.jpg" alt="Macaroni" title="Macaroni" >
+        <p class="caption">Macaroni</p>
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <a href="images/gallery_fusilli.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img class="img-responsive" src="images/gallery_fusilli.jpg" alt="Fusilli" title="Fusilli">
-        <p class="caption">Fusilli</p>
+      <a href="images/gallery_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_bucatini.jpg" alt="Bucatini" title="Bucatini" >
+        <p class="caption">Bucatini</p>
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <a href="images/gallery_conchiglie.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img class="img-responsive" src="images/gallery_conchiglie.jpg" alt="Conchiglie" title="Conchiglie">
-        <p class="caption">Conchiglie</p>
+      <a href="images/gallery_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_salad.jpg" alt="Salad" title="Salad" >
+        <p class="caption">Salad</p>
       </a>
     </div>
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <a href="images/gallery_gnocchi.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img class="img-responsive" src="images/gallery_gnocchi.jpg" alt="Gnocchi" title="Gnocchi">
-        <p class="caption">Gnocchi</p>
+      <a href="images/gallery_salmon.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_salmon.jpg" alt="Salmon" title="Salmon" >
+        <p class="caption">Salmon</p>
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a href="images/gallery_mushroom.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_mushroom.jpg" alt="Mushroom" title="Mushroom" >
+        <p class="caption">Mushroom</p>
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+      <a href="images/gallery_seafood.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+        <img class="img-responsive" src="images/gallery_seafood.jpg" alt="Seafood" title="Seafood" >
+        <p class="caption">Seafood</p>
       </a>
     </div>
   </div>
