@@ -37,8 +37,8 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg .pull-right">
-            <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-              <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="Fettuccine with Lemon Tuna and Capers" title="Fettuccine with Lemon Tuna and Capers" >
+            <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Fettuccine with Lemon Tuna and Capers">
+              <img class="img-responsive" src="images/carousel_pasta_salad.jpg" alt="Fettuccine with Lemon Tuna and Capers" title="Fettuccine with Lemon Tuna and Capers">
               <p class="caption">Fettuccine with Lemon Tuna and Capers</p>
             </a>
           </div>
@@ -82,7 +82,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs " data-fancybox-group="thumb">
+            <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs " data-fancybox-group="thumb" title="Creamy Salmon and Broad Bean Fettuccine">
               <img class="img-responsive" src="images/carousel_bucatini.jpg" alt="Creamy Salmon and Broad Bean Fettuccine" title="Creamy Salmon and Broad Bean Fettuccine">
               <p class="caption">Creamy Salmon and Broad Bean Fettuccine</p>
             </a>
@@ -127,7 +127,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/Pasta_Puttanesca_by_koishikawagirl.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/Pasta_Puttanesca_by_koishikawagirl.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Creamy Bacon Spaghetti with Poached Eggs">
               <img src="images/Pasta_Puttanesca_by_koishikawagirl.jpg" alt="Creamy Bacon Spaghetti with Poached Eggs" title="Creamy Bacon Spaghetti with Poached Eggs">
               <p class="caption">Creamy Bacon Spaghetti with Poached Eggs</p>
             </a>
@@ -172,7 +172,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/pasta_an3.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/pasta_an3.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Fettuccine Boscaiola">
               <img src="images/pasta_an3.jpg" alt="Fettuccine Boscaiola" title="Fettuccine Boscaiola">
               <p class="caption">Fettuccine Boscaiola</p>
             </a>
@@ -222,8 +222,8 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-              <a href="images/Pasta_Puttanesca_by_koishikawagirl.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-                <img class="img-responsive" src="images/Pasta_Puttanesca_by_koishikawagirl.jpg" alt="Pea, Mint and Prosciutto Pasta" title="Pea, Mint and Prosciutto Pasta" >
+              <a href="images/Pasta_Puttanesca_by_koishikawagirl.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Pea, Mint and Prosciutto Pasta">
+                <img class="img-responsive" src="images/Pasta_Puttanesca_by_koishikawagirl.jpg" alt="Pea, Mint and Prosciutto Pasta" title="Pea, Mint and Prosciutto Pasta">
                 <p class="caption">Pea, Mint and Prosciutto Pasta</p>
               </a>
             </div>
@@ -267,7 +267,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/Pasta_e_fagioli_rapida.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/Pasta_e_fagioli_rapida.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Chilli Prawn and Tomato Spaghetti">
               <img src="images/Pasta_e_fagioli_rapida.jpg" alt="Chilli Prawn and Tomato Spaghetti" title="Chilli Prawn and Tomato Spaghetti">
               <p class="caption">Chilli Prawn and Tomato Spaghetti</p>
             </a>
@@ -317,7 +317,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/pasta_an1.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Bruschetta Pasta">
               <img src="images/pasta_an1.jpg" alt="Bruschetta Pasta" title="Bruschetta Pasta">
               <p class="caption">Bruschetta Pasta</p>
             </a>
@@ -362,7 +362,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Pasta Salad">
               <img src="images/carousel_smoked_salmon_penne.jpg" alt="Pasta Salad" title="Pasta Salad">
               <p class="caption">Pasta Salad</p>
             </a>
@@ -407,7 +407,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/pasta_an2.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/pasta_an2.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Fettuccine with Mixed Mushroom Sauce">
               <img src="images/pasta_an2.jpg" alt="Fettuccine with Mixed Mushroom Sauce" title="Fettuccine with Mixed Mushroom Sauce">
               <p class="caption">Fettuccine with Mixed Mushroom Sauce</p>
             </a>
@@ -452,7 +452,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/Macaroni_Pasta.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/Macaroni_Pasta.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Zucchini and Tomato Lasagne">
               <img src="images/Macaroni_Pasta.jpg" alt="Zucchini and Tomato Lasagne" title="Zucchini and Tomato Lasagne">
               <p class="caption">Zucchini and Tomato Lasagne</p>
             </a>
@@ -497,7 +497,7 @@
         <div class="panel-body">
           <h4>Ingredients</h4>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb recimg">
-            <a href="images/pasta_an5.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
+            <a href="images/pasta_an5.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Greek-Style Gnocchi">
               <img src="images/pasta_an5.jpg" alt="Greek-Style Gnocchi" title="Greek-Style Gnocchi">
               <p class="caption">Greek-Style Gnocchi </p>
             </a>

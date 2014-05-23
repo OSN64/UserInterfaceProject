@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 12:16:23
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 14:45:05
          compiled from "./templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1971903738537dafb2395184-52702198%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f45d8ababa5d6f5c301aa6e6fbb98df40da92477' => 
     array (
       0 => './templates/about.tpl',
-      1 => 1400811381,
+      1 => 1400820303,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -83,22 +83,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         as they are representative of our commitment and authenticity.
       </p>
     </div><div class="col-md-5 vertical-middle">
-      <a href="images/carousel_smoked_salmon_penne.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_smoked_salmon_penne.jpg" alt="...">
-        <p class="caption">Caption</p>
+      <a href="images/about_hq.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Antonio's Pasta HQ">
+        <img src="images/about_hq.jpg" alt="Antonio's Pasta's HQ" title="Antonio's Pasta HQ">
+        <p class="caption">Antonio's Pasta HQ</p>
       </a>
     </div>
   </div>
   <div class="row featurette">
     <div class="col-md-5 vertical-middle">
-      <a href="images/carousel_bucatini.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_bucatini.jpg" alt="...">
-        <p class="caption">Caption</p>
+      <a href="images/about_founder.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Antonio Capello">
+        <img src="images/about_founder.jpg" alt="Antonio Capello" title="Antonio Capello">
+        <p class="caption">Antonio Capello</p>
       </a>
     </div><div class="col-md-7 vertical-middle">
       <h2 class="featurette-heading">History</h2>
       <p class="lead">
-        Antonio's Pasta was founded in 19XX by Antonio Surname. Our products have been reknowned for its quality
+        Antonio's Pasta was founded in 1964 by Antonio Capello. Our products have been reknowned for its quality
         ever since its origin as a family run business.
       </p>
     </div>
@@ -112,9 +112,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         products.
       </p>
     </div><div class="col-md-5 vertical-middle">
-      <a href="images/carousel_pasta_salad.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb">
-        <img src="images/carousel_pasta_salad.jpg" alt="...">
-        <p class="caption">Caption</p>
+      <a href="images/about_product.jpg" class="thumbnail fancybox-thumbs" data-fancybox-group="thumb" title="Antonio's Fusilli Pasta">
+        <img src="images/about_product.jpg" alt="Antonio's Fusilli Pasta" title="Antonio's Fusilli Pasta">
+        <p class="caption">Antonio's Fusilli Pasta</p>
       </a>
     </div>
   </div>

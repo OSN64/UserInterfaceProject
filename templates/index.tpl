@@ -49,7 +49,7 @@ Antonio's Pasta | Home
             </div>
 
             <h1>Antonio's Pasta</h1>
-            <p>Authenticly Italian pasta products.</p>
+            <p>Authentically Italian pasta products.</p>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ Antonio's Pasta | Home
             </div>
 
             <h1>Antonio's Pasta</h1>
-            <p>Authenticly Italian pasta products.</p>
+            <p>Authentically Italian pasta products.</p>
           </div>
         </div>
       </div>
