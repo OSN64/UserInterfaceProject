@@ -30,8 +30,7 @@ $(document).ready(function(){
 	      },
 	      number: {
 	      	number:true,
-	      	min: 1000,
-	      	required: true
+	      	min: 1000
 	      }
 	    },
 			highlight: function(element) {
