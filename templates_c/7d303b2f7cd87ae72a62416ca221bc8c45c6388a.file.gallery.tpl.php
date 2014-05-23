@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 14:50:28
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 16:06:58
          compiled from "./templates/gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1548062478537dafba6453b5-80426856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d303b2f7cd87ae72a62416ca221bc8c45c6388a' => 
     array (
       0 => './templates/gallery.tpl',
-      1 => 1400820476,
+      1 => 1400822791,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400803500,
+      1 => 1400825038,
       2 => 'file',
     ),
   ),
@@ -31,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>
   Antonio's Pasta | Gallery
 </title>
@@ -75,8 +75,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div id="content" class="container">
       
 
-  <div id="sidebar" class="col-md-4">
-    <div class="list-group col-md-offset-2 col-md-8">
+  <div id="sidebar" class="col-md-3">
+    <div class="list-group col-md-offset-3 col-md-8">
       <p class="list-group-item">Dish Types</p>
       <a class="list-group-item list-group-item-danger" href="#pAnchor">Products </a>
       <a class="list-group-item list-group-item-success" href="#dAnchor">Dishes</a>

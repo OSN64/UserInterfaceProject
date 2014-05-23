@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 14:50:43
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 16:06:51
          compiled from "./templates/recipes.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:61371423537dafb5c99cf8-43336370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21bbd61b32d765e50626966b3a11b355a8b4ef81' => 
     array (
       0 => './templates/recipes.tpl',
-      1 => 1400820476,
+      1 => 1400822674,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400803500,
+      1 => 1400825038,
       2 => 'file',
     ),
   ),
@@ -31,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>
   Antonio's Pasta | Recipes
 </title>
@@ -74,8 +74,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <div id="content" class="container">
       
-  <div id="sidebar" class="col-md-4">
-    <div class="list-group col-md-offset-2 col-md-8">
+  <div id="sidebar" class="col-md-3">
+    <div class="list-group col-md-offset-3 col-md-8">
       <p class="list-group-item">Dish Types</p>
       <a class="list-group-item list-group-item-danger" href="#type1">Main Course</a>
       <a class="list-group-item list-group-item-info" href="#type2">Quick &amp; Easy</a>
@@ -83,7 +83,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
   </div>
   
-  <div class="panel-group col-md-7" id="recipe-list">
+  <div class="panel-group col-md-8" id="recipe-list">
     <span id="type1" class="anchor"></span>
     <h2 class="page-header">Main Course Recipes</h2>
     <div class="panel panel-danger">

@@ -89,7 +89,7 @@ html {
   font-weight: bold;
 }
 .featurette {
-  margin: 4em 2em;
+  margin: 4em 0em;
   background: white;
   border-radius: 1em;
   padding: 2%;
@@ -107,7 +107,7 @@ html {
   vertical-align: middle;
 }
 #galContent{
-  padding-right: 10%
+  padding-right: 0;
 }
 .breadcrumb {
   margin-top: 2%;

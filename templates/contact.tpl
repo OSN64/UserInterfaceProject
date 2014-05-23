@@ -13,18 +13,19 @@
 {/block}
 
 {block "content"}
-  <div class="container">
-      
+  <div class="col-md-offset-1 col-md-10">
       <div class="row">
-        <div class="col-lg-12">
-          <h1 class="page-header">Contact <br> <small>We'd Love to Hear From You!</small></h1>
-        </div>
-        <div class="col-lg-12" style="background: white; padding: 0px;">
+        <h1 class="page-header">
+          Contact Us<br>
+          <small>We'd love to hear from you!</small>
+        </h1>
+        <div class="col-lg-12" style="background: white; padding: 4px;">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28183.887404867084!2d153.3501464!3d-27.994327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911afec71b6fcb%3A0x1153e617105dfcca!2sCreative+Pizza!5e0!3m2!1sen!2sau!4v1400675314054" width="100%" height="500px" scrolling="no" frameborder="0"  marginheight="0" marginwidth="0" style="border:0"></iframe>
         </div>
       </div>
       
       <div class="row">
+      <br>
         <div class="col-sm-8">
           <h3>Let's Get In Touch!</h3>
           <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>

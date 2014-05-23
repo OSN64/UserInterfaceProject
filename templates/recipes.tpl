@@ -13,8 +13,8 @@
 {/block}
 
 {block "content"}
-  <div id="sidebar" class="col-md-4">
-    <div class="list-group col-md-offset-2 col-md-8">
+  <div id="sidebar" class="col-md-3">
+    <div class="list-group col-md-offset-3 col-md-8">
       <p class="list-group-item">Dish Types</p>
       <a class="list-group-item list-group-item-danger" href="#type1">Main Course</a>
       <a class="list-group-item list-group-item-info" href="#type2">Quick &amp; Easy</a>
@@ -22,7 +22,7 @@
     </div>
   </div>
   
-  <div class="panel-group col-md-7" id="recipe-list">
+  <div class="panel-group col-md-8" id="recipe-list">
     <span id="type1" class="anchor"></span>
     <h2 class="page-header">Main Course Recipes</h2>
     <div class="panel panel-danger">

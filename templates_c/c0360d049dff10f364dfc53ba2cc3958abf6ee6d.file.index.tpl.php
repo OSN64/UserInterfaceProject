@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 14:49:20
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 16:04:03
          compiled from "./templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:562133566537dafa8cfa889-86328433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400803500,
+      1 => 1400825038,
       2 => 'file',
     ),
   ),
@@ -31,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>
 Antonio's Pasta | Home
 </title>

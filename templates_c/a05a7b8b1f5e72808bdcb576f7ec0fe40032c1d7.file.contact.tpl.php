@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 14:55:45
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 16:07:07
          compiled from "./templates/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:345425229537dafbe92ffb0-52151849%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
       0 => './templates/contact.tpl',
-      1 => 1400820943,
+      1 => 1400823533,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
     array (
       0 => './templates/layout.tpl',
-      1 => 1400803500,
+      1 => 1400825038,
       2 => 'file',
     ),
   ),
@@ -31,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>
   Antonio's Pasta | Contact Us
 </title>
@@ -74,18 +74,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     
     <div id="content" class="container">
       
-  <div class="container">
-      
+  <div class="col-md-offset-1 col-md-10">
       <div class="row">
-        <div class="col-lg-12">
-          <h1 class="page-header">Contact <br> <small>We'd Love to Hear From You!</small></h1>
-        </div>
-        <div class="col-lg-12" style="background: white; padding: 0px;">
+        <h1 class="page-header">
+          Contact Us<br>
+          <small>We'd love to hear from you!</small>
+        </h1>
+        <div class="col-lg-12" style="background: white; padding: 4px;">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28183.887404867084!2d153.3501464!3d-27.994327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911afec71b6fcb%3A0x1153e617105dfcca!2sCreative+Pizza!5e0!3m2!1sen!2sau!4v1400675314054" width="100%" height="500px" scrolling="no" frameborder="0"  marginheight="0" marginwidth="0" style="border:0"></iframe>
         </div>
       </div>
       
       <div class="row">
+      <br>
         <div class="col-sm-8">
           <h3>Let's Get In Touch!</h3>
           <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
