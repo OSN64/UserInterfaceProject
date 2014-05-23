@@ -32,11 +32,11 @@
             <form  id="contactus" role="form" method="POST" action="">
               <div class="row">
                 <div class="form-group col-lg-4">
-                  <label for="input1">Name</label>
+                  <label for="input1">Name<span class="required-asterisk">*</span></label>
                   <input type="text" name="name" class="form-control" id="input1" placeholder="eg: Dave Goldstene" required >
                 </div>
                 <div class="form-group col-lg-4">
-                  <label for="input2">Email Address</label>
+                  <label for="input2">Email Address<span class="required-asterisk">*</span></label>
                   <input type="email" name="email" class="form-control" id="input2" placeholder="eg: Dave@techthrones.com" required >
                 </div>
                 <div class="form-group col-lg-4">
@@ -45,12 +45,15 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="form-group col-lg-12">
-                  <label for="input4">Message</label>
+                  <label for="input4">Message<span class="required-asterisk">*</span></label>
                   <textarea name="message" class="form-control" rows="6" id="input4" placeholder="Tell us what you want" required ></textarea>
                 </div>
-                <div class="form-group col-lg-12">
+                <div class="form-group col-lg-6">
                   <input type="hidden" name="save" value="contact">
                   <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+                <div class="col-lg-6">
+                  <p class="required-asterisk">*Required fields</p>
                 </div>
               </div>
             </form>

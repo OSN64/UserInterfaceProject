@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 16:07:07
+<?php /* Smarty version Smarty-3.1.18, created on 2014-05-23 19:36:16
          compiled from "./templates/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:345425229537dafbe92ffb0-52151849%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a05a7b8b1f5e72808bdcb576f7ec0fe40032c1d7' => 
     array (
       0 => './templates/contact.tpl',
-      1 => 1400823533,
+      1 => 1400837771,
       2 => 'file',
     ),
     '9e6b070c8cb75a2b091a59dcbc2131b5d5a97bf5' => 
@@ -93,11 +93,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <form  id="contactus" role="form" method="POST" action="">
               <div class="row">
                 <div class="form-group col-lg-4">
-                  <label for="input1">Name</label>
+                  <label for="input1">Name<span class="required-asterisk">*</span></label>
                   <input type="text" name="name" class="form-control" id="input1" placeholder="eg: Dave Goldstene" required >
                 </div>
                 <div class="form-group col-lg-4">
-                  <label for="input2">Email Address</label>
+                  <label for="input2">Email Address<span class="required-asterisk">*</span></label>
                   <input type="email" name="email" class="form-control" id="input2" placeholder="eg: Dave@techthrones.com" required >
                 </div>
                 <div class="form-group col-lg-4">
@@ -106,12 +106,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
                 <div class="clearfix"></div>
                 <div class="form-group col-lg-12">
-                  <label for="input4">Message</label>
+                  <label for="input4">Message<span class="required-asterisk">*</span></label>
                   <textarea name="message" class="form-control" rows="6" id="input4" placeholder="Tell us what you want" required ></textarea>
                 </div>
-                <div class="form-group col-lg-12">
+                <div class="form-group col-lg-6">
                   <input type="hidden" name="save" value="contact">
                   <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+                <div class="col-lg-6">
+                  <p class="required-asterisk">*Required fields</p>
                 </div>
               </div>
             </form>

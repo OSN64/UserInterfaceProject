@@ -121,6 +121,11 @@ html {
   padding: 2px;
   text-align: center;
 }
+.required-asterisk {
+  color: red;
+  font-weight: bold;
+  text-align: right;
+}
 /*this is for the validion in the form*/
 @import url('./css/bootstrap.min.css');
 @import url('./css/bootstrap-responsive.min.css');
